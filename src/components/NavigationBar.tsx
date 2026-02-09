@@ -20,17 +20,17 @@ export default function NavigationBar({ onSearch, onStats }: NavigationBarProps)
 
     let newIndex = focusedIndex;
     switch (direction) {
-      case 'left':
-        newIndex = Math.max(0, focusedIndex - 1);
-        break;
-      case 'right':
-        newIndex = Math.min(maxIndex, focusedIndex + 1);
-        break;
       case 'up':
-        newIndex = Math.max(0, focusedIndex - 50); // Jump up a group
+        newIndex = Math.max(0, focusedIndex - 1); // Move up within column
         break;
       case 'down':
-        newIndex = Math.min(maxIndex, focusedIndex + 50); // Jump down a group
+        newIndex = Math.min(maxIndex, focusedIndex + 1); // Move down within column
+        break;
+      case 'left':
+        newIndex = Math.max(0, focusedIndex - 50); // Jump to previous group
+        break;
+      case 'right':
+        newIndex = Math.min(maxIndex, focusedIndex + 50); // Jump to next group
         break;
     }
     setFocusedIndex(newIndex);
@@ -42,53 +42,92 @@ export default function NavigationBar({ onSearch, onStats }: NavigationBarProps)
 
   return (
     <header className="w-full bg-linear-to-r from-blue-600 to-blue-700 text-white shadow-lg">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      {/* Top row: Logo + utility buttons */}
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 pt-2.5 pb-1.5 sm:py-3 flex items-center justify-between gap-2">
         {/* Logo / Title */}
-        <div className="flex items-center gap-3">
-          <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
-            <BookOpen size={18} className="text-white" />
+        <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+          <div className="w-7 h-7 sm:w-8 sm:h-8 bg-white/20 rounded-lg flex items-center justify-center shrink-0">
+            <BookOpen size={16} className="text-white sm:hidden" />
+            <BookOpen size={18} className="text-white hidden sm:block" />
           </div>
-          <div>
-            <h1 className="text-lg font-bold leading-tight">{t('appTitle', lang)}</h1>
-            <p className="text-xs text-blue-200">{t('appSubtitle', lang)}</p>
+          <div className="min-w-0">
+            <h1 className="text-sm sm:text-lg font-bold leading-tight truncate">{t('appTitle', lang)}</h1>
+            <p className="text-[10px] sm:text-xs text-blue-200 truncate hidden sm:block">{t('appSubtitle', lang)}</p>
           </div>
         </div>
 
-        {/* Navigation arrows + action buttons */}
-        <div className="flex items-center gap-1">
+        {/* Right side utilities */}
+        <div className="flex items-center gap-0.5 sm:gap-1 shrink-0">
+          {/* Search */}
+          <button
+            onClick={onSearch}
+            className="p-1.5 sm:p-2 rounded hover:bg-white/20 transition-colors"
+            title={t('searchPlaceholder', lang)}
+          >
+            <Search size={16} />
+          </button>
+
+          {/* Stats */}
+          <button
+            onClick={onStats}
+            className="p-1.5 sm:p-2 rounded text-sm hover:bg-white/20 transition-colors"
+          >
+            📊
+          </button>
+
+          {/* Language toggle */}
+          <button
+            onClick={() => setLanguage(lang === 'cn' ? 'en' : 'cn')}
+            className="px-2 py-1 rounded text-xs font-bold hover:bg-white/20 transition-colors"
+          >
+            {lang === 'cn' ? 'EN' : '中'}
+          </button>
+
+          {/* Streak */}
+          {state.streak > 0 && (
+            <span className="text-[10px] sm:text-xs bg-amber-400/80 text-amber-900 px-1.5 sm:px-2 py-0.5 rounded-full font-bold">
+              🔥 {state.streak}{lang === 'cn' ? '天' : 'd'}
+            </span>
+          )}
+        </div>
+      </div>
+
+      {/* Bottom row: Navigation arrows + action shortcut buttons */}
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 pb-2.5 sm:pb-3">
+        <div className="flex items-center gap-1 overflow-x-auto scrollbar-none">
           {/* Arrow buttons */}
-          <div className="flex items-center gap-0.5 mr-2">
+          <div className="flex items-center gap-0.5 shrink-0">
             <button
               onClick={() => navigate('up')}
               className="p-1.5 rounded hover:bg-white/20 transition-colors"
               title="↑"
             >
-              <ArrowUp size={16} />
+              <ArrowUp size={14} />
             </button>
             <button
               onClick={() => navigate('down')}
               className="p-1.5 rounded hover:bg-white/20 transition-colors"
               title="↓"
             >
-              <ArrowDown size={16} />
+              <ArrowDown size={14} />
             </button>
             <button
               onClick={() => navigate('left')}
               className="p-1.5 rounded hover:bg-white/20 transition-colors"
               title="←"
             >
-              <ArrowLeft size={16} />
+              <ArrowLeft size={14} />
             </button>
             <button
               onClick={() => navigate('right')}
               className="p-1.5 rounded hover:bg-white/20 transition-colors"
               title="→"
             >
-              <ArrowRight size={16} />
+              <ArrowRight size={14} />
             </button>
           </div>
 
-          <div className="w-px h-6 bg-white/20 mx-1" />
+          <div className="w-px h-5 bg-white/20 mx-1 shrink-0" />
 
           {/* Action shortcut buttons */}
           {[
@@ -106,7 +145,7 @@ export default function NavigationBar({ onSearch, onStats }: NavigationBarProps)
                 else if (key === 'W') setWordStatus(currentWord.id, null);
               }}
               className={cn(
-                'px-2 py-1 rounded text-xs font-bold transition-colors flex items-center gap-1',
+                'px-2 py-1 rounded text-xs font-bold transition-colors flex items-center gap-1 shrink-0',
                 color
               )}
               title={label}
@@ -115,42 +154,6 @@ export default function NavigationBar({ onSearch, onStats }: NavigationBarProps)
               <span className="hidden sm:inline">{label}</span>
             </button>
           ))}
-
-          <div className="w-px h-6 bg-white/20 mx-1" />
-
-          {/* Search */}
-          <button
-            onClick={onSearch}
-            className="p-1.5 rounded hover:bg-white/20 transition-colors"
-            title={t('searchPlaceholder', lang)}
-          >
-            <Search size={16} />
-          </button>
-
-          {/* Stats */}
-          <button
-            onClick={onStats}
-            className="px-2 py-1 rounded text-xs font-medium hover:bg-white/20 transition-colors"
-          >
-            📊
-          </button>
-
-          <div className="w-px h-6 bg-white/20 mx-1" />
-
-          {/* Language toggle */}
-          <button
-            onClick={() => setLanguage(lang === 'cn' ? 'en' : 'cn')}
-            className="px-2 py-1 rounded text-xs font-bold hover:bg-white/20 transition-colors"
-          >
-            {lang === 'cn' ? 'EN' : '中'}
-          </button>
-
-          {/* Streak */}
-          {state.streak > 0 && (
-            <span className="ml-2 text-xs bg-amber-400/80 text-amber-900 px-2 py-0.5 rounded-full font-bold">
-              🔥 {state.streak}{lang === 'cn' ? '天' : 'd'}
-            </span>
-          )}
         </div>
       </div>
     </header>

@@ -90,19 +90,19 @@ function FlashcardApp() {
       }
 
       switch (e.key) {
-        case 'ArrowLeft':
+        case 'ArrowUp':
           e.preventDefault();
           setFocusedIndex(Math.max(0, focusedIndex - 1));
           break;
-        case 'ArrowRight':
+        case 'ArrowDown':
           e.preventDefault();
           setFocusedIndex(Math.min(currentWords.length - 1, focusedIndex + 1));
           break;
-        case 'ArrowUp':
+        case 'ArrowLeft':
           e.preventDefault();
           setFocusedIndex(Math.max(0, focusedIndex - 50));
           break;
-        case 'ArrowDown':
+        case 'ArrowRight':
           e.preventDefault();
           setFocusedIndex(Math.min(currentWords.length - 1, focusedIndex + 50));
           break;
