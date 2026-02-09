@@ -1,65 +1,199 @@
-import Image from "next/image";
+'use client';
+
+import { useState, useCallback, useEffect } from 'react';
+import { AppProvider, useApp } from '@/hooks/useAppState';
+import { Word } from '@/types/word';
+import { initTTS } from '@/lib/tts';
+import NavigationBar from '@/components/NavigationBar';
+import DaySlider from '@/components/DaySlider';
+import ControlPanel from '@/components/ControlPanel';
+import WordGrid from '@/components/WordGrid';
+import FlashcardModal from '@/components/FlashcardModal';
+import InstructionsModal from '@/components/InstructionsModal';
+import SearchBar from '@/components/SearchBar';
+import StatsPanel from '@/components/StatsPanel';
+
+function FlashcardApp() {
+  const { state, currentWords, setWordStatus, setFocusedIndex, focusedIndex } = useApp();
+
+  const [selectedWord, setSelectedWord] = useState<Word | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState(-1);
+  const [showInstructions, setShowInstructions] = useState(false);
+  const [showSearch, setShowSearch] = useState(false);
+  const [showStats, setShowStats] = useState(false);
+
+  // Show instructions on first launch
+  useEffect(() => {
+    if (!state.hasSeenInstructions) {
+      setShowInstructions(true);
+    }
+  }, [state.hasSeenInstructions]);
+
+  // Initialize TTS
+  useEffect(() => {
+    initTTS();
+  }, []);
+
+  const handleWordClick = useCallback(
+    (word: Word, index: number) => {
+      setSelectedWord(word);
+      setSelectedIndex(index);
+      setFocusedIndex(index);
+    },
+    [setFocusedIndex]
+  );
+
+  const handleModalClose = useCallback(() => {
+    setSelectedWord(null);
+    setSelectedIndex(-1);
+  }, []);
+
+  const handleModalPrev = useCallback(() => {
+    if (selectedIndex > 0) {
+      const newIndex = selectedIndex - 1;
+      setSelectedWord(currentWords[newIndex]);
+      setSelectedIndex(newIndex);
+      setFocusedIndex(newIndex);
+    }
+  }, [selectedIndex, currentWords, setFocusedIndex]);
+
+  const handleModalNext = useCallback(() => {
+    if (selectedIndex < currentWords.length - 1) {
+      const newIndex = selectedIndex + 1;
+      setSelectedWord(currentWords[newIndex]);
+      setSelectedIndex(newIndex);
+      setFocusedIndex(newIndex);
+    }
+  }, [selectedIndex, currentWords, setFocusedIndex]);
+
+  const handleSearchWordSelect = useCallback(
+    (word: Word, index: number) => {
+      setSelectedWord(word);
+      setSelectedIndex(index);
+      setFocusedIndex(index);
+    },
+    [setFocusedIndex]
+  );
+
+  // Global keyboard shortcuts
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Don't handle if modal, search, or instructions are open
+      if (selectedWord || showSearch) return;
+
+      // Don't handle if typing in an input
+      if (
+        e.target instanceof HTMLInputElement ||
+        e.target instanceof HTMLTextAreaElement
+      ) {
+        return;
+      }
+
+      switch (e.key) {
+        case 'ArrowLeft':
+          e.preventDefault();
+          setFocusedIndex(Math.max(0, focusedIndex - 1));
+          break;
+        case 'ArrowRight':
+          e.preventDefault();
+          setFocusedIndex(Math.min(currentWords.length - 1, focusedIndex + 1));
+          break;
+        case 'ArrowUp':
+          e.preventDefault();
+          setFocusedIndex(Math.max(0, focusedIndex - 50));
+          break;
+        case 'ArrowDown':
+          e.preventDefault();
+          setFocusedIndex(Math.min(currentWords.length - 1, focusedIndex + 50));
+          break;
+        case 'd':
+        case 'D':
+          if (focusedIndex >= 0 && focusedIndex < currentWords.length) {
+            handleWordClick(currentWords[focusedIndex], focusedIndex);
+          }
+          break;
+        case 'g':
+        case 'G':
+          if (focusedIndex >= 0 && focusedIndex < currentWords.length) {
+            setWordStatus(currentWords[focusedIndex].id, 'green');
+          }
+          break;
+        case 'r':
+        case 'R':
+          if (focusedIndex >= 0 && focusedIndex < currentWords.length) {
+            setWordStatus(currentWords[focusedIndex].id, 'red');
+          }
+          break;
+        case 'w':
+        case 'W':
+          if (focusedIndex >= 0 && focusedIndex < currentWords.length) {
+            setWordStatus(currentWords[focusedIndex].id, null);
+          }
+          break;
+        case '/':
+          e.preventDefault();
+          setShowSearch(true);
+          break;
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [
+    focusedIndex,
+    currentWords,
+    selectedWord,
+    showSearch,
+    setFocusedIndex,
+    setWordStatus,
+    handleWordClick,
+  ]);
+
+  return (
+    <div className="min-h-screen bg-slate-50 flex flex-col">
+      <NavigationBar
+        onSearch={() => setShowSearch(true)}
+        onStats={() => setShowStats(true)}
+      />
+      <DaySlider />
+      <ControlPanel />
+      <WordGrid onWordClick={handleWordClick} />
+
+      {/* Modals */}
+      {selectedWord && (
+        <FlashcardModal
+          word={selectedWord}
+          wordIndex={selectedIndex}
+          isOpen={!!selectedWord}
+          onClose={handleModalClose}
+          onPrev={handleModalPrev}
+          onNext={handleModalNext}
+        />
+      )}
+
+      <InstructionsModal
+        isOpen={showInstructions}
+        onClose={() => setShowInstructions(false)}
+      />
+
+      <SearchBar
+        isOpen={showSearch}
+        onClose={() => setShowSearch(false)}
+        onWordSelect={handleSearchWordSelect}
+      />
+
+      <StatsPanel
+        isOpen={showStats}
+        onClose={() => setShowStats(false)}
+      />
+    </div>
+  );
+}
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <AppProvider>
+      <FlashcardApp />
+    </AppProvider>
   );
 }
