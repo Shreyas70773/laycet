@@ -4,6 +4,8 @@
 
 A bilingual (Chinese/English) flashcard web app designed for Chinese university students preparing for the CET-4 English exam.
 
+check it out live at https://laycet.netlify.app/
+
 ## ✨ Features
 
 - **1,500 CET-4 words** — organized into 30 groups of 50 words, sorted by frequency (most common words first)
