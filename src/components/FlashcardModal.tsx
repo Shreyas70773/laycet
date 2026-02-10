@@ -6,8 +6,8 @@ import { t } from '@/lib/i18n';
 import { speakWord } from '@/lib/tts';
 import { cn } from '@/lib/utils';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Volume2, ChevronLeft, ChevronRight, X } from 'lucide-react';
-import { useCallback, useEffect } from 'react';
+import { Volume2, ChevronLeft, ChevronRight, X, Eye, EyeOff } from 'lucide-react';
+import { useCallback, useEffect, useState } from 'react';
 
 interface FlashcardModalProps {
   word: Word;
@@ -29,6 +29,12 @@ export default function FlashcardModal({
   const { state, setWordStatus, currentWords } = useApp();
   const lang = state.settings.language;
   const status = state.wordStatuses[word.id] || null;
+  const [showMeaning, setShowMeaning] = useState(false);
+
+  // Reset hidden state when word changes
+  useEffect(() => {
+    setShowMeaning(false);
+  }, [word.id]);
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
@@ -48,10 +54,12 @@ export default function FlashcardModal({
         case 'g':
         case 'G':
           setWordStatus(word.id, 'green');
+          onClose();
           break;
         case 'r':
         case 'R':
           setWordStatus(word.id, 'red');
+          onClose();
           break;
         case 'w':
         case 'W':
@@ -156,12 +164,27 @@ export default function FlashcardModal({
 
               {/* Content */}
               <div className="px-6 pb-4 space-y-4">
-                {/* Chinese translation */}
+                {/* Chinese translation — hidden by default */}
                 <div>
-                  <h4 className="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-1">
-                    {t('chineseTranslation', lang)}
-                  </h4>
-                  <p className="text-lg text-slate-800 font-medium">{word.chinese}</p>
+                  <div className="flex items-center justify-between mb-1">
+                    <h4 className="text-xs uppercase tracking-wider text-slate-400 font-semibold">
+                      {t('chineseTranslation', lang)}
+                    </h4>
+                    <button
+                      onClick={() => setShowMeaning(!showMeaning)}
+                      className="p-1 rounded-md hover:bg-slate-100 text-slate-400 hover:text-slate-600 transition-colors"
+                      title={showMeaning ? 'Hide' : 'Reveal'}
+                    >
+                      {showMeaning ? <EyeOff size={16} /> : <Eye size={16} />}
+                    </button>
+                  </div>
+                  {showMeaning ? (
+                    <p className="text-lg text-slate-800 font-medium">{word.chinese}</p>
+                  ) : (
+                    <p className="text-lg text-slate-300 font-medium select-none cursor-pointer" onClick={() => setShowMeaning(true)}>
+                      {lang === 'cn' ? '点击眼睛图标查看释义' : 'Click the eye icon to reveal'}
+                    </p>
+                  )}
                 </div>
 
                 {/* Example sentence */}
@@ -174,22 +197,35 @@ export default function FlashcardModal({
                   </p>
                 </div>
 
-                {/* Synonyms */}
+                {/* Synonyms — hidden by default */}
                 {word.synonyms.length > 0 && (
                   <div>
                     <h4 className="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-1">
                       {t('synonyms', lang)}
                     </h4>
-                    <div className="flex flex-wrap gap-2">
-                      {word.synonyms.map((syn) => (
-                        <span
-                          key={syn}
-                          className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm font-medium"
-                        >
-                          {syn}
-                        </span>
-                      ))}
-                    </div>
+                    {showMeaning ? (
+                      <div className="flex flex-wrap gap-2">
+                        {word.synonyms.map((syn) => (
+                          <span
+                            key={syn}
+                            className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm font-medium"
+                          >
+                            {syn}
+                          </span>
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="flex flex-wrap gap-2">
+                        {word.synonyms.map((_, i) => (
+                          <span
+                            key={i}
+                            className="px-3 py-1 bg-slate-100 text-slate-300 rounded-full text-sm font-medium select-none"
+                          >
+                            • • •
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
@@ -198,7 +234,7 @@ export default function FlashcardModal({
               <div className="px-6 py-4 bg-slate-50 border-t border-slate-100 flex items-center justify-between">
                 <div className="flex gap-2">
                   <button
-                    onClick={() => setWordStatus(word.id, 'green')}
+                    onClick={() => { setWordStatus(word.id, 'green'); onClose(); }}
                     className={cn(
                       'px-4 py-2 rounded-lg text-sm font-semibold transition-all',
                       status === 'green'
@@ -209,7 +245,7 @@ export default function FlashcardModal({
                     ✓ {t('markGreen', lang)}
                   </button>
                   <button
-                    onClick={() => setWordStatus(word.id, 'red')}
+                    onClick={() => { setWordStatus(word.id, 'red'); onClose(); }}
                     className={cn(
                       'px-4 py-2 rounded-lg text-sm font-semibold transition-all',
                       status === 'red'
