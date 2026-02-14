@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useCallback, useEffect, useState, ReactNode } from 'react';
+import { createContext, useContext, useCallback, useEffect, useState, useMemo, ReactNode } from 'react';
 import { Word, WordStatus } from '@/types/word';
 import { AppState, DEFAULT_STATE, Language } from '@/types/state';
 import { getTodayISO } from '@/lib/utils';
@@ -37,6 +37,10 @@ interface AppContextType {
 
   // Word order (for shuffling)
   setCurrentWords: (words: Word[]) => void;
+
+  // Word lookup
+  findWordByText: (text: string) => Word | null;
+  maxDay: number;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -115,9 +119,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
     }
   }, [isHydrated, state.lastStudyDate]);
 
+  const maxDay = Math.max(...allWords.map(w => w.day));
+
   const setCurrentDay = useCallback((day: number) => {
-    setState((prev) => ({ ...prev, currentDay: Math.max(1, Math.min(30, day)) }));
-  }, []);
+    setState((prev) => ({ ...prev, currentDay: Math.max(1, Math.min(maxDay, day)) }));
+  }, [maxDay]);
 
   const setWordStatus = useCallback((wordId: string, status: WordStatus) => {
     setState((prev) => {
@@ -208,6 +214,49 @@ export function AppProvider({ children }: { children: ReactNode }) {
     [allWords, state.wordStatuses]
   );
 
+  // Build a lookup map for fast word search by text
+  const wordLookupMap = useMemo(() => {
+    const map = new Map<string, Word>();
+    for (const w of allWords) {
+      map.set(w.word.toLowerCase(), w);
+    }
+    return map;
+  }, [allWords]);
+
+  const findWordByText = useCallback(
+    (text: string): Word | null => {
+      const lower = text.toLowerCase().trim();
+      // Direct match
+      if (wordLookupMap.has(lower)) return wordLookupMap.get(lower)!;
+      // Try common morphological reductions
+      const suffixes = ['s', 'es', 'ed', 'ing', 'er', 'est', 'ly', 'tion', 'ment', 'ness'];
+      for (const suffix of suffixes) {
+        if (lower.endsWith(suffix)) {
+          const stem = lower.slice(0, -suffix.length);
+          if (stem.length > 2 && wordLookupMap.has(stem)) return wordLookupMap.get(stem)!;
+          if (wordLookupMap.has(stem + 'e')) return wordLookupMap.get(stem + 'e')!;
+          // doubled consonant: "stopped" -> "stop"
+          if (stem.length > 2 && stem[stem.length-1] === stem[stem.length-2]) {
+            const shorter = stem.slice(0, -1);
+            if (wordLookupMap.has(shorter)) return wordLookupMap.get(shorter)!;
+          }
+        }
+      }
+      // ied -> y
+      if (lower.endsWith('ied')) {
+        const yForm = lower.slice(0, -3) + 'y';
+        if (wordLookupMap.has(yForm)) return wordLookupMap.get(yForm)!;
+      }
+      // ies -> y
+      if (lower.endsWith('ies')) {
+        const yForm = lower.slice(0, -3) + 'y';
+        if (wordLookupMap.has(yForm)) return wordLookupMap.get(yForm)!;
+      }
+      return null;
+    },
+    [wordLookupMap]
+  );
+
   if (!isHydrated) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-slate-50">
@@ -234,6 +283,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
         getWordsForDay,
         getGroupStats,
         setCurrentWords,
+        findWordByText,
+        maxDay,
       }}
     >
       {children}

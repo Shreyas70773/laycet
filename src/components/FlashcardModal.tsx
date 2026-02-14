@@ -9,6 +9,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Volume2, ChevronLeft, ChevronRight, X, Eye, EyeOff } from 'lucide-react';
 import { useCallback, useEffect, useState } from 'react';
 import SentencePlayer from './SentencePlayer';
+import LinkedWord from './LinkedWord';
 
 interface FlashcardModalProps {
   word: Word;
@@ -17,6 +18,7 @@ interface FlashcardModalProps {
   onClose: () => void;
   onPrev: () => void;
   onNext: () => void;
+  onNavigateToWord?: (word: Word) => void;
 }
 
 export default function FlashcardModal({
@@ -26,8 +28,9 @@ export default function FlashcardModal({
   onClose,
   onPrev,
   onNext,
+  onNavigateToWord,
 }: FlashcardModalProps) {
-  const { state, setWordStatus, currentWords } = useApp();
+  const { state, setWordStatus, currentWords, findWordByText } = useApp();
   const lang = state.settings.language;
   const status = state.wordStatuses[word.id] || null;
   const [showMeaning, setShowMeaning] = useState(false);
@@ -76,19 +79,51 @@ export default function FlashcardModal({
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, [handleKeyDown]);
 
-  // Highlight word in example sentence
-  const highlightSentence = (sentence: string, targetWord: string) => {
-    const regex = new RegExp(`(${targetWord}[a-z]*)`, 'gi');
-    const parts = sentence.split(regex);
-    return parts.map((part, i) =>
-      regex.test(part) ? (
-        <strong key={i} className="text-blue-700 underline decoration-blue-300 underline-offset-2">
-          {part}
-        </strong>
-      ) : (
-        <span key={i}>{part}</span>
-      )
-    );
+  // Handle navigation to a linked word
+  const handleNavigateToWord = useCallback(
+    (targetWord: Word) => {
+      if (onNavigateToWord) {
+        onNavigateToWord(targetWord);
+      }
+    },
+    [onNavigateToWord]
+  );
+
+  // Render sentence with every word as a LinkedWord (hover = Chinese tooltip, click = navigate)
+  const renderLinkedSentence = (sentence: string, currentWord: string) => {
+    // Split sentence into word tokens and non-word tokens (punctuation/spaces)
+    const tokens = sentence.split(/\b/);
+    const currentLower = currentWord.toLowerCase();
+
+    return tokens.map((token, i) => {
+      // Skip pure whitespace/punctuation
+      if (!/[a-zA-Z]/.test(token)) {
+        return <span key={i}>{token}</span>;
+      }
+
+      // Is this the current word being studied? Highlight it differently
+      if (token.toLowerCase() === currentLower || token.toLowerCase().startsWith(currentLower)) {
+        const foundWord = findWordByText(token);
+        if (foundWord && foundWord.id === word.id) {
+          return (
+            <strong key={i} className="text-blue-700 underline decoration-blue-300 underline-offset-2">
+              {token}
+            </strong>
+          );
+        }
+      }
+
+      // Try to find this word in the dictionary
+      const linkedWord = findWordByText(token);
+      return (
+        <LinkedWord
+          key={i}
+          text={token}
+          word={linkedWord}
+          onNavigate={handleNavigateToWord}
+        />
+      );
+    });
   };
 
   return (
@@ -195,7 +230,7 @@ export default function FlashcardModal({
                   </h4>
                   <SentencePlayer
                     sentence={word.exampleSentence}
-                    highlightedContent={highlightSentence(word.exampleSentence, word.word)}
+                    highlightedContent={renderLinkedSentence(word.exampleSentence, word.word)}
                     lang={lang}
                   />
                 </div>
@@ -208,14 +243,29 @@ export default function FlashcardModal({
                     </h4>
                     {showMeaning ? (
                       <div className="flex flex-wrap gap-2">
-                        {word.synonyms.map((syn) => (
-                          <span
-                            key={syn}
-                            className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm font-medium"
-                          >
-                            {syn}
-                          </span>
-                        ))}
+                        {word.synonyms.map((syn) => {
+                          const synWord = findWordByText(syn);
+                          return synWord ? (
+                            <button
+                              key={syn}
+                              onClick={() => handleNavigateToWord(synWord)}
+                              className="group relative px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm font-medium hover:bg-blue-100 hover:shadow-sm transition-all cursor-pointer"
+                              title={`${synWord.chinese} ${synWord.ipa}`}
+                            >
+                              {syn}
+                              <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1.5 px-2 py-1 bg-slate-800 text-white text-xs rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50">
+                                {synWord.chinese}
+                              </span>
+                            </button>
+                          ) : (
+                            <span
+                              key={syn}
+                              className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm font-medium"
+                            >
+                              {syn}
+                            </span>
+                          );
+                        })}
                       </div>
                     ) : (
                       <div className="flex flex-wrap gap-2">

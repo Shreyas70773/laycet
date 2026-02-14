@@ -75,6 +75,23 @@ function FlashcardApp() {
     [setFocusedIndex]
   );
 
+  const handleNavigateToWord = useCallback(
+    (targetWord: Word) => {
+      // Find the index of this word in currentWords
+      const idx = currentWords.findIndex(w => w.id === targetWord.id);
+      if (idx >= 0) {
+        setSelectedWord(currentWords[idx]);
+        setSelectedIndex(idx);
+        setFocusedIndex(idx);
+      } else {
+        // Word might be in a group not currently loaded — still show it
+        setSelectedWord(targetWord);
+        setSelectedIndex(-1);
+      }
+    },
+    [currentWords, setFocusedIndex]
+  );
+
   // Global keyboard shortcuts
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -168,6 +185,7 @@ function FlashcardApp() {
           onClose={handleModalClose}
           onPrev={handleModalPrev}
           onNext={handleModalNext}
+          onNavigateToWord={handleNavigateToWord}
         />
       )}
 

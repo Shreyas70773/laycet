@@ -1,0 +1,6927 @@
+[
+  {
+    "word": "company",
+    "count": 46,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "position",
+      "policy",
+      "staff"
+    ]
+  },
+  {
+    "word": "please",
+    "count": 41,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "account",
+      "consider",
+      "remain"
+    ]
+  },
+  {
+    "word": "students",
+    "count": 36,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "program",
+      "provide",
+      "involve"
+    ]
+  },
+  {
+    "word": "plan",
+    "count": 32,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "budget",
+      "approve",
+      "oppose"
+    ]
+  },
+  {
+    "word": "hard",
+    "count": 25,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "achieve",
+      "potential",
+      "intense"
+    ]
+  },
+  {
+    "word": "problem",
+    "count": 22,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "approach",
+      "major",
+      "complex"
+    ]
+  },
+  {
+    "word": "teacher",
+    "count": 19,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "attribute",
+      "stimulate",
+      "assess"
+    ]
+  },
+  {
+    "word": "decided",
+    "count": 18,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "apply",
+      "restrict",
+      "impose"
+    ]
+  },
+  {
+    "word": "team",
+    "count": 17,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "project",
+      "manage",
+      "initiative"
+    ]
+  },
+  {
+    "word": "education",
+    "count": 16,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "system",
+      "role",
+      "investment"
+    ]
+  },
+  {
+    "word": "government",
+    "count": 16,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "measure",
+      "reform",
+      "restrict"
+    ]
+  },
+  {
+    "word": "change",
+    "count": 16,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "administration",
+      "compel",
+      "inevitable"
+    ]
+  },
+  {
+    "word": "beautiful",
+    "count": 16,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "landscape",
+      "glimpse",
+      "attract"
+    ]
+  },
+  {
+    "word": "everyone",
+    "count": 15,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "contribute",
+      "impress",
+      "justice"
+    ]
+  },
+  {
+    "word": "lot",
+    "count": 14,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "require",
+      "pressure",
+      "accumulate"
+    ]
+  },
+  {
+    "word": "main",
+    "count": 14,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "feature",
+      "function",
+      "theme"
+    ]
+  },
+  {
+    "word": "decision",
+    "count": 14,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "rational",
+      "induce",
+      "tough"
+    ]
+  },
+  {
+    "word": "common",
+    "count": 13,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "material",
+      "labor",
+      "substance"
+    ]
+  },
+  {
+    "word": "business",
+    "count": 13,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "expand",
+      "negotiate",
+      "venture"
+    ]
+  },
+  {
+    "word": "different",
+    "count": 12,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "involve",
+      "perspective",
+      "liberal"
+    ]
+  },
+  {
+    "word": "health",
+    "count": 12,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "benefit",
+      "mental",
+      "mental"
+    ]
+  },
+  {
+    "word": "weather",
+    "count": 12,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "affect",
+      "forecast",
+      "satellite"
+    ]
+  },
+  {
+    "word": "group",
+    "count": 12,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "exchange",
+      "interact"
+    ]
+  },
+  {
+    "word": "exam",
+    "count": 12,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "obvious",
+      "proportion",
+      "adequate"
+    ]
+  },
+  {
+    "word": "job",
+    "count": 11,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "require",
+      "apply",
+      "network"
+    ]
+  },
+  {
+    "word": "future",
+    "count": 11,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "environment",
+      "investment",
+      "preserve"
+    ]
+  },
+  {
+    "word": "exercise",
+    "count": 11,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "benefit",
+      "physical",
+      "moderate"
+    ]
+  },
+  {
+    "word": "morning",
+    "count": 11,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "occupy",
+      "supplement",
+      "instruct"
+    ]
+  },
+  {
+    "word": "area",
+    "count": 11,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "zone",
+      "shortage",
+      "soil"
+    ]
+  },
+  {
+    "word": "doctor",
+    "count": 11,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "isolate",
+      "patient",
+      "consult"
+    ]
+  },
+  {
+    "word": "strong",
+    "count": 10,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "interest",
+      "structure",
+      "influence"
+    ]
+  },
+  {
+    "word": "finish",
+    "count": 10,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "expect",
+      "target",
+      "critical"
+    ]
+  },
+  {
+    "word": "rain",
+    "count": 10,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "likely",
+      "forecast",
+      "despite"
+    ]
+  },
+  {
+    "word": "success",
+    "count": 10,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "define",
+      "innovation",
+      "cooperation"
+    ]
+  },
+  {
+    "word": "report",
+    "count": 10,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "relevant",
+      "accurate",
+      "comprehensive"
+    ]
+  },
+  {
+    "word": "difficult",
+    "count": 10,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "notion",
+      "capable",
+      "tackle"
+    ]
+  },
+  {
+    "word": "law",
+    "count": 10,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "discrimination",
+      "enforce",
+      "congress"
+    ]
+  },
+  {
+    "word": "event",
+    "count": 10,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "sponsor",
+      "cancel",
+      "coverage"
+    ]
+  },
+  {
+    "word": "story",
+    "count": 10,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "theme",
+      "inspire",
+      "moral"
+    ]
+  },
+  {
+    "word": "class",
+    "count": 10,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "participate",
+      "behavior",
+      "concentrate"
+    ]
+  },
+  {
+    "word": "road",
+    "count": 10,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "authority",
+      "limit",
+      "narrow"
+    ]
+  },
+  {
+    "word": "goal",
+    "count": 10,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "primary",
+      "ultimate",
+      "ownership"
+    ]
+  },
+  {
+    "word": "follow",
+    "count": 10,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "procedure",
+      "exception",
+      "guideline"
+    ]
+  },
+  {
+    "word": "language",
+    "count": 9,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "process",
+      "challenge",
+      "master"
+    ]
+  },
+  {
+    "word": "family",
+    "count": 9,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "support",
+      "income",
+      "occasion"
+    ]
+  },
+  {
+    "word": "modern",
+    "count": 9,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "role",
+      "technology",
+      "labor"
+    ]
+  },
+  {
+    "word": "air",
+    "count": 9,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "concern",
+      "measure",
+      "widespread"
+    ]
+  },
+  {
+    "word": "english",
+    "count": 9,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "progress",
+      "device",
+      "intermediate"
+    ]
+  },
+  {
+    "word": "top",
+    "count": 9,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "incredible",
+      "priority",
+      "rank"
+    ]
+  },
+  {
+    "word": "scientists",
+    "count": 9,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "mechanism",
+      "probe",
+      "analyze"
+    ]
+  },
+  {
+    "word": "drive",
+    "count": 9,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "license",
+      "rough",
+      "smooth"
+    ]
+  },
+  {
+    "word": "music",
+    "count": 9,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "therapy",
+      "emotion",
+      "passion"
+    ]
+  },
+  {
+    "word": "software",
+    "count": 9,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "update",
+      "version",
+      "install"
+    ]
+  },
+  {
+    "word": "agreement",
+    "count": 9,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "breach",
+      "diplomat",
+      "nod"
+    ]
+  },
+  {
+    "word": "coffee",
+    "count": 9,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "partner",
+      "prefer",
+      "switch"
+    ]
+  },
+  {
+    "word": "separate",
+    "count": 9,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "entity"
+    ]
+  },
+  {
+    "word": "knowledge",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "power",
+      "breadth",
+      "frontier"
+    ]
+  },
+  {
+    "word": "serious",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "issue",
+      "financial",
+      "psychological"
+    ]
+  },
+  {
+    "word": "cities",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "issue",
+      "concern",
+      "major"
+    ]
+  },
+  {
+    "word": "factory",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "produce",
+      "oppose",
+      "protest"
+    ]
+  },
+  {
+    "word": "information",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "source",
+      "relevant",
+      "retain"
+    ]
+  },
+  {
+    "word": "cost",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "reduce",
+      "assumption",
+      "estimate"
+    ]
+  },
+  {
+    "word": "stay",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "physical",
+      "intense",
+      "philosophy"
+    ]
+  },
+  {
+    "word": "parents",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "influence",
+      "obligation",
+      "sacrifice"
+    ]
+  },
+  {
+    "word": "clear",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "pattern",
+      "distinction"
+    ]
+  },
+  {
+    "word": "public",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "image",
+      "shift",
+      "prohibit"
+    ]
+  },
+  {
+    "word": "increase",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "strategy",
+      "dramatic"
+    ]
+  },
+  {
+    "word": "sign",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "document",
+      "warn"
+    ]
+  },
+  {
+    "word": "online",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "acquire",
+      "indicate",
+      "virtual"
+    ]
+  },
+  {
+    "word": "include",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "relevant",
+      "amend"
+    ]
+  },
+  {
+    "word": "passed",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "proportion",
+      "legislation",
+      "normal"
+    ]
+  },
+  {
+    "word": "chinese",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "insight",
+      "authentic",
+      "novel"
+    ]
+  },
+  {
+    "word": "cause",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "investigate",
+      "bacteria"
+    ]
+  },
+  {
+    "word": "situation",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "modify",
+      "current",
+      "reality"
+    ]
+  },
+  {
+    "word": "news",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "scan",
+      "react",
+      "reaction"
+    ]
+  },
+  {
+    "word": "travel",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "valid",
+      "expense",
+      "brochure"
+    ]
+  },
+  {
+    "word": "path",
+    "count": 8,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "downward",
+      "steep"
+    ]
+  },
+  {
+    "word": "direct",
+    "count": 8,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "manage",
+      "linear",
+      "instruct"
+    ]
+  },
+  {
+    "word": "free",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "provide",
+      "guarantee"
+    ]
+  },
+  {
+    "word": "countries",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "material",
+      "poverty",
+      "tension"
+    ]
+  },
+  {
+    "word": "university",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "design",
+      "astronomy",
+      "institution"
+    ]
+  },
+  {
+    "word": "clean",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "demand",
+      "community",
+      "mission"
+    ]
+  },
+  {
+    "word": "hotel",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "standard",
+      "convenient",
+      "inquire"
+    ]
+  },
+  {
+    "word": "near",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "advantage",
+      "oppose",
+      "enormous"
+    ]
+  },
+  {
+    "word": "task",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "critical",
+      "notion",
+      "undertake"
+    ]
+  },
+  {
+    "word": "form",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "attach",
+      "blank"
+    ]
+  },
+  {
+    "word": "international",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "domestic",
+      "dominant",
+      "commerce"
+    ]
+  },
+  {
+    "word": "age",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "enterprise",
+      "minimum",
+      "retire"
+    ]
+  },
+  {
+    "word": "earth",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "substance",
+      "orbit",
+      "satellite"
+    ]
+  },
+  {
+    "word": "police",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "enforce",
+      "investigate",
+      "incident"
+    ]
+  },
+  {
+    "word": "answer",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "select",
+      "random",
+      "whisper"
+    ]
+  },
+  {
+    "word": "amount",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "yield",
+      "import",
+      "immense"
+    ]
+  },
+  {
+    "word": "tree",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "limb",
+      "shade",
+      "shelter"
+    ]
+  },
+  {
+    "word": "growth",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "linear",
+      "sustain",
+      "rapid"
+    ]
+  },
+  {
+    "word": "storm",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "normal",
+      "debris",
+      "block"
+    ]
+  },
+  {
+    "word": "party",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "ordinary",
+      "sufficient",
+      "wonder"
+    ]
+  },
+  {
+    "word": "field",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "pioneer",
+      "scholar"
+    ]
+  },
+  {
+    "word": "organization",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "poverty",
+      "nominal"
+    ]
+  },
+  {
+    "word": "effect",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "psychological",
+      "cumulative"
+    ]
+  },
+  {
+    "word": "spread",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "drastic",
+      "fame",
+      "prevent"
+    ]
+  },
+  {
+    "word": "complete",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "disorder"
+    ]
+  },
+  {
+    "word": "explain",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "phrase"
+    ]
+  },
+  {
+    "word": "break",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "punish"
+    ]
+  },
+  {
+    "word": "advance",
+    "count": 7,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "command"
+    ]
+  },
+  {
+    "word": "create",
+    "count": 7,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "produce",
+      "design",
+      "establish"
+    ]
+  },
+  {
+    "word": "hold",
+    "count": 7,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "retain",
+      "occupy",
+      "contain"
+    ]
+  },
+  {
+    "word": "examine",
+    "count": 7,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "inspect",
+      "investigate",
+      "probe"
+    ]
+  },
+  {
+    "word": "store",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "range",
+      "variety",
+      "inventory"
+    ]
+  },
+  {
+    "word": "energy",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "demand",
+      "exploit",
+      "nuclear"
+    ]
+  },
+  {
+    "word": "whole",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "community",
+      "phenomenon",
+      "nation"
+    ]
+  },
+  {
+    "word": "example",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "specific",
+      "typical",
+      "classic"
+    ]
+  },
+  {
+    "word": "history",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "relate",
+      "insight",
+      "recommend"
+    ]
+  },
+  {
+    "word": "ancient",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "relate",
+      "civilization",
+      "historian"
+    ]
+  },
+  {
+    "word": "china",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "relate",
+      "import",
+      "folk"
+    ]
+  },
+  {
+    "word": "prices",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "compare",
+      "plunge",
+      "regulate"
+    ]
+  },
+  {
+    "word": "abroad",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "opportunity",
+      "luxury",
+      "mature"
+    ]
+  },
+  {
+    "word": "discussion",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "engage",
+      "emerge",
+      "topic"
+    ]
+  },
+  {
+    "word": "goods",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "transport",
+      "regulate"
+    ]
+  },
+  {
+    "word": "across",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "transport",
+      "fame",
+      "globe"
+    ]
+  },
+  {
+    "word": "huge",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "impact"
+    ]
+  },
+  {
+    "word": "solution",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "alternative",
+      "practical",
+      "temporary"
+    ]
+  },
+  {
+    "word": "summer",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "associate",
+      "invade",
+      "average"
+    ]
+  },
+  {
+    "word": "accept",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "consequence",
+      "refuse"
+    ]
+  },
+  {
+    "word": "river",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "oppose",
+      "boundary",
+      "valley"
+    ]
+  },
+  {
+    "word": "outside",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "intense",
+      "protest",
+      "domain"
+    ]
+  },
+  {
+    "word": "against",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "discrimination",
+      "effective",
+      "lean"
+    ]
+  },
+  {
+    "word": "test",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "distribute",
+      "entire",
+      "irony"
+    ]
+  },
+  {
+    "word": "mountain",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "incredible",
+      "attempt",
+      "reach"
+    ]
+  },
+  {
+    "word": "care",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "obligation",
+      "welfare",
+      "delicate"
+    ]
+  },
+  {
+    "word": "animals",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "reproduce",
+      "instinct",
+      "exist"
+    ]
+  },
+  {
+    "word": "correct",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "select",
+      "sequence",
+      "assume"
+    ]
+  },
+  {
+    "word": "together",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "tackle",
+      "partner",
+      "bind"
+    ]
+  },
+  {
+    "word": "accident",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "witness",
+      "investigate",
+      "occur"
+    ]
+  },
+  {
+    "word": "list",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "compile",
+      "item"
+    ]
+  },
+  {
+    "word": "train",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "platform",
+      "track",
+      "halt"
+    ]
+  },
+  {
+    "word": "hours",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "terminal",
+      "session",
+      "duration"
+    ]
+  },
+  {
+    "word": "action",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "current",
+      "immediate"
+    ]
+  },
+  {
+    "word": "ship",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "anchor",
+      "cargo",
+      "crew"
+    ]
+  },
+  {
+    "word": "effort",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "formation",
+      "earnest",
+      "joint"
+    ]
+  },
+  {
+    "word": "fix",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "immediate",
+      "surgery"
+    ]
+  },
+  {
+    "word": "college",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "military",
+      "primarily",
+      "foreign"
+    ]
+  },
+  {
+    "word": "among",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "model",
+      "popular",
+      "product"
+    ]
+  },
+  {
+    "word": "final",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "opponent",
+      "phase",
+      "portion"
+    ]
+  },
+  {
+    "word": "piece",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "carve",
+      "string",
+      "compose"
+    ]
+  },
+  {
+    "word": "center",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "property",
+      "agency"
+    ]
+  },
+  {
+    "word": "committee",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "reject",
+      "consist"
+    ]
+  },
+  {
+    "word": "fire",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "alarm",
+      "brave",
+      "manuscript"
+    ]
+  },
+  {
+    "word": "fight",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "prejudice",
+      "intervene"
+    ]
+  },
+  {
+    "word": "edge",
+    "count": 6,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "cliff"
+    ]
+  },
+  {
+    "word": "state",
+    "count": 6,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "claim",
+      "proclaim",
+      "nation"
+    ]
+  },
+  {
+    "word": "element",
+    "count": 6,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "detail",
+      "factor",
+      "component"
+    ]
+  },
+  {
+    "word": "plane",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "remain",
+      "pilot",
+      "survive"
+    ]
+  },
+  {
+    "word": "studying",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "design",
+      "opportunity",
+      "mechanism"
+    ]
+  },
+  {
+    "word": "research",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "project",
+      "institute",
+      "scope"
+    ]
+  },
+  {
+    "word": "phone",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "feature",
+      "justify",
+      "trace"
+    ]
+  },
+  {
+    "word": "express",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "individual",
+      "emotion"
+    ]
+  },
+  {
+    "word": "opinion",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "individual",
+      "shift",
+      "incline"
+    ]
+  },
+  {
+    "word": "crime",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "evidence",
+      "motive",
+      "assert"
+    ]
+  },
+  {
+    "word": "data",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "pattern",
+      "satellite",
+      "analyze"
+    ]
+  },
+  {
+    "word": "survey",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "pattern",
+      "indicate"
+    ]
+  },
+  {
+    "word": "matter",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "private"
+    ]
+  },
+  {
+    "word": "friend",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "introduce",
+      "accompany",
+      "loyal"
+    ]
+  },
+  {
+    "word": "red",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "represent",
+      "vehicle",
+      "conspicuous"
+    ]
+  },
+  {
+    "word": "mistake",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "responsible",
+      "minor",
+      "confess"
+    ]
+  },
+  {
+    "word": "skill",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "acquire",
+      "fundamental"
+    ]
+  },
+  {
+    "word": "works",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "institute",
+      "literary",
+      "poverty"
+    ]
+  },
+  {
+    "word": "build",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "oppose",
+      "vocabulary",
+      "lumber"
+    ]
+  },
+  {
+    "word": "disaster",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "appeal",
+      "aid",
+      "provision"
+    ]
+  },
+  {
+    "word": "shopping",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "indicate",
+      "dramatic",
+      "item"
+    ]
+  },
+  {
+    "word": "career",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "foundation",
+      "pursue",
+      "elevate"
+    ]
+  },
+  {
+    "word": "trip",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "encounter",
+      "calculate",
+      "vivid"
+    ]
+  },
+  {
+    "word": "total",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "calculate"
+    ]
+  },
+  {
+    "word": "heavy",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "burden",
+      "traffic",
+      "flood"
+    ]
+  },
+  {
+    "word": "idea",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "illustrate",
+      "mainstream"
+    ]
+  },
+  {
+    "word": "painting",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "convey",
+      "possess",
+      "technique"
+    ]
+  },
+  {
+    "word": "level",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "intermediate",
+      "intellectual"
+    ]
+  },
+  {
+    "word": "election",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "margin",
+      "vote",
+      "editorial"
+    ]
+  },
+  {
+    "word": "medicine",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "pursue",
+      "effective",
+      "label"
+    ]
+  },
+  {
+    "word": "takes",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "supplement",
+      "formation",
+      "master"
+    ]
+  },
+  {
+    "word": "empty",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "echo"
+    ]
+  },
+  {
+    "word": "agree",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "incline",
+      "extent"
+    ]
+  },
+  {
+    "word": "smoking",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "prohibit",
+      "ban",
+      "permit"
+    ]
+  },
+  {
+    "word": "arrange",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "sequence"
+    ]
+  },
+  {
+    "word": "airport",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "terminal",
+      "route",
+      "coincidence"
+    ]
+  },
+  {
+    "word": "freedom",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "concept",
+      "constitution"
+    ]
+  },
+  {
+    "word": "science",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "experiment",
+      "pioneer",
+      "enroll"
+    ]
+  },
+  {
+    "word": "studied",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "astronomy",
+      "foreign",
+      "historian"
+    ]
+  },
+  {
+    "word": "speech",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "impress",
+      "numerous",
+      "principal"
+    ]
+  },
+  {
+    "word": "restaurant",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "authentic",
+      "local",
+      "cater"
+    ]
+  },
+  {
+    "word": "due",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "lack",
+      "slight",
+      "cease"
+    ]
+  },
+  {
+    "word": "understand",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "logical",
+      "context"
+    ]
+  },
+  {
+    "word": "talent",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "possess",
+      "extraordinary",
+      "manifest"
+    ]
+  },
+  {
+    "word": "tea",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "prefer",
+      "switch",
+      "whereas"
+    ]
+  },
+  {
+    "word": "employees",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "raise",
+      "wage",
+      "orient"
+    ]
+  },
+  {
+    "word": "dress",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "conspicuous",
+      "elegant",
+      "fancy"
+    ]
+  },
+  {
+    "word": "conference",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "delegate",
+      "host",
+      "badge"
+    ]
+  },
+  {
+    "word": "earthquake",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": false,
+    "sources": [
+      "victim",
+      "volunteer",
+      "destruction"
+    ]
+  },
+  {
+    "word": "body",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "circulate",
+      "mineral"
+    ]
+  },
+  {
+    "word": "direction",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "downward"
+    ]
+  },
+  {
+    "word": "course",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "credit",
+      "enroll"
+    ]
+  },
+  {
+    "word": "handle",
+    "count": 5,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "delicate"
+    ]
+  },
+  {
+    "word": "force",
+    "count": 5,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "power",
+      "pressure",
+      "compel"
+    ]
+  },
+  {
+    "word": "gain",
+    "count": 5,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "benefit",
+      "acquire",
+      "obtain"
+    ]
+  },
+  {
+    "word": "carry out",
+    "count": 5,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "perform",
+      "conduct",
+      "commit"
+    ]
+  },
+  {
+    "word": "chance",
+    "count": 5,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "opportunity",
+      "random",
+      "risk"
+    ]
+  },
+  {
+    "word": "present",
+    "count": 5,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "introduce",
+      "submit",
+      "donate"
+    ]
+  },
+  {
+    "word": "connection",
+    "count": 5,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "network",
+      "link",
+      "bond"
+    ]
+  },
+  {
+    "word": "fasten",
+    "count": 5,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "attach",
+      "anchor",
+      "bind"
+    ]
+  },
+  {
+    "word": "attack",
+    "count": 5,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "invade",
+      "strike",
+      "aggression"
+    ]
+  },
+  {
+    "word": "notice",
+    "count": 5,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "perceive",
+      "observe",
+      "spot"
+    ]
+  },
+  {
+    "word": "honor",
+    "count": 5,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "privilege",
+      "celebrate",
+      "dignity"
+    ]
+  },
+  {
+    "word": "declare",
+    "count": 5,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "proclaim",
+      "assert",
+      "exclaim"
+    ]
+  },
+  {
+    "word": "control",
+    "count": 5,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "regulate",
+      "authority",
+      "manipulate"
+    ]
+  },
+  {
+    "word": "section",
+    "count": 5,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "portion",
+      "clause",
+      "chapter"
+    ]
+  },
+  {
+    "word": "wide",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "range",
+      "variety",
+      "scope"
+    ]
+  },
+  {
+    "word": "comfort",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "standard"
+    ]
+  },
+  {
+    "word": "regular",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "physical"
+    ]
+  },
+  {
+    "word": "culture",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "opportunity",
+      "distinct",
+      "historian"
+    ]
+  },
+  {
+    "word": "summary",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "brief"
+    ]
+  },
+  {
+    "word": "result",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "apparent"
+    ]
+  },
+  {
+    "word": "description",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "accurate",
+      "vivid"
+    ]
+  },
+  {
+    "word": "successful",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "foundation",
+      "leadership",
+      "contrary"
+    ]
+  },
+  {
+    "word": "difficulty",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "exaggerate",
+      "undertake"
+    ]
+  },
+  {
+    "word": "picture",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "illustrate"
+    ]
+  },
+  {
+    "word": "proper",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "disposal",
+      "configuration"
+    ]
+  },
+  {
+    "word": "disease",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "mechanism",
+      "prevent",
+      "incidence"
+    ]
+  },
+  {
+    "word": "society",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "inevitable",
+      "violence"
+    ]
+  },
+  {
+    "word": "respect",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "mutual",
+      "worthy"
+    ]
+  },
+  {
+    "word": "natural",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "phenomenon",
+      "preserve",
+      "abundant"
+    ]
+  },
+  {
+    "word": "degree",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "qualify",
+      "confer"
+    ]
+  },
+  {
+    "word": "competition",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "fierce",
+      "numerous",
+      "opponent"
+    ]
+  },
+  {
+    "word": "check",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "index",
+      "inventory",
+      "item"
+    ]
+  },
+  {
+    "word": "act",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "instinct",
+      "condemn"
+    ]
+  },
+  {
+    "word": "tie",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "kneel"
+    ]
+  },
+  {
+    "word": "figure",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "prominent"
+    ]
+  },
+  {
+    "word": "question",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "random",
+      "merely",
+      "pause"
+    ]
+  },
+  {
+    "word": "basic",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "regulate",
+      "necessity"
+    ]
+  },
+  {
+    "word": "wind",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "scatter",
+      "flame",
+      "antenna"
+    ]
+  },
+  {
+    "word": "economic",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "sustain",
+      "crisis"
+    ]
+  },
+  {
+    "word": "relaxed",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "therapy"
+    ]
+  },
+  {
+    "word": "climb",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "attempt",
+      "steep"
+    ]
+  },
+  {
+    "word": "excellent",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "impress",
+      "performance"
+    ]
+  },
+  {
+    "word": "reply",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "instant"
+    ]
+  },
+  {
+    "word": "well-known",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "institution",
+      "scholar",
+      "brand"
+    ]
+  },
+  {
+    "word": "simple",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "merely",
+      "kernel"
+    ]
+  },
+  {
+    "word": "fear",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "overcome",
+      "conquer"
+    ]
+  },
+  {
+    "word": "order",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "catalog"
+    ]
+  },
+  {
+    "word": "inside",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "permit",
+      "hollow"
+    ]
+  },
+  {
+    "word": "paper",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "quantity",
+      "wrap",
+      "cite"
+    ]
+  },
+  {
+    "word": "article",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "summarize"
+    ]
+  },
+  {
+    "word": "rise",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "tendency"
+    ]
+  },
+  {
+    "word": "catch",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "trap"
+    ]
+  },
+  {
+    "word": "leader",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "vision",
+      "dynamic",
+      "mourn"
+    ]
+  },
+  {
+    "word": "spring",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "bloom",
+      "mild"
+    ]
+  },
+  {
+    "word": "failure",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "doom",
+      "partly"
+    ]
+  },
+  {
+    "word": "mean",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "clarify",
+      "insult"
+    ]
+  },
+  {
+    "word": "apartment",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "unit",
+      "furnish",
+      "compact"
+    ]
+  },
+  {
+    "word": "glass",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "delicate",
+      "opaque"
+    ]
+  },
+  {
+    "word": "watch",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "glance"
+    ]
+  },
+  {
+    "word": "lead",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "hatred"
+    ]
+  },
+  {
+    "word": "sense",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "humor",
+      "prevail"
+    ]
+  },
+  {
+    "word": "nature",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "inspiration"
+    ]
+  },
+  {
+    "word": "continue",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "meantime"
+    ]
+  },
+  {
+    "word": "trade",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "surplus"
+    ]
+  },
+  {
+    "word": "lower",
+    "count": 4,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "affirm"
+    ]
+  },
+  {
+    "word": "rule",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "policy",
+      "principle",
+      "norm"
+    ]
+  },
+  {
+    "word": "aim",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "purpose",
+      "target",
+      "intend"
+    ]
+  },
+  {
+    "word": "connect",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "relate",
+      "attach",
+      "associate"
+    ]
+  },
+  {
+    "word": "swap",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "exchange",
+      "substitute",
+      "replace"
+    ]
+  },
+  {
+    "word": "earnings",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "income",
+      "revenue",
+      "profit"
+    ]
+  },
+  {
+    "word": "belief",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "assumption",
+      "notion",
+      "philosophy"
+    ]
+  },
+  {
+    "word": "base",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "foundation",
+      "platform",
+      "basis"
+    ]
+  },
+  {
+    "word": "firm",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "stable",
+      "solid",
+      "tight"
+    ]
+  },
+  {
+    "word": "gap",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "margin",
+      "interval",
+      "breach"
+    ]
+  },
+  {
+    "word": "occurrence",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "phenomenon",
+      "incident",
+      "instance"
+    ]
+  },
+  {
+    "word": "sensible",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "rational",
+      "logical",
+      "realistic"
+    ]
+  },
+  {
+    "word": "recognize",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "perceive",
+      "distinguish",
+      "identify"
+    ]
+  },
+  {
+    "word": "assign",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "allocate",
+      "delegate",
+      "designate"
+    ]
+  },
+  {
+    "word": "cover",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "shelter",
+      "wrap",
+      "conceal"
+    ]
+  },
+  {
+    "word": "representative",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "typical",
+      "delegate",
+      "deputy"
+    ]
+  },
+  {
+    "word": "shine",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "beam",
+      "glare",
+      "glow"
+    ]
+  },
+  {
+    "word": "analysis",
+    "count": 4,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "diagnosis",
+      "breakdown",
+      "commentary"
+    ]
+  },
+  {
+    "word": "wood",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "material",
+      "carve"
+    ]
+  },
+  {
+    "word": "flight",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "available",
+      "duration"
+    ]
+  },
+  {
+    "word": "attention",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "detail",
+      "warrant"
+    ]
+  },
+  {
+    "word": "share",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "strategy"
+    ]
+  },
+  {
+    "word": "lab",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "conduct",
+      "experiment"
+    ]
+  },
+  {
+    "word": "sure",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "secure",
+      "gear"
+    ]
+  },
+  {
+    "word": "practice",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "combine",
+      "instruct"
+    ]
+  },
+  {
+    "word": "official",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "obtain",
+      "corrupt"
+    ]
+  },
+  {
+    "word": "lake",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "enormous",
+      "surface"
+    ]
+  },
+  {
+    "word": "mind",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "compel",
+      "convince"
+    ]
+  },
+  {
+    "word": "explanation",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "elaborate"
+    ]
+  },
+  {
+    "word": "view",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "incredible"
+    ]
+  },
+  {
+    "word": "ring",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "inherit",
+      "treasure"
+    ]
+  },
+  {
+    "word": "hall",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "echo",
+      "assembly"
+    ]
+  },
+  {
+    "word": "cultural",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "heritage"
+    ]
+  },
+  {
+    "word": "announcement",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "plunge"
+    ]
+  },
+  {
+    "word": "relationship",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "basis",
+      "core"
+    ]
+  },
+  {
+    "word": "art",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "contemporary",
+      "gallery"
+    ]
+  },
+  {
+    "word": "sentence",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "identify",
+      "context"
+    ]
+  },
+  {
+    "word": "advice",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "ignore",
+      "legal"
+    ]
+  },
+  {
+    "word": "prepared",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "interview",
+      "crew"
+    ]
+  },
+  {
+    "word": "appearance",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "judge",
+      "resemble"
+    ]
+  },
+  {
+    "word": "failed",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "lack",
+      "irony"
+    ]
+  },
+  {
+    "word": "cream",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "layer",
+      "melt"
+    ]
+  },
+  {
+    "word": "hit",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "bounce"
+    ]
+  },
+  {
+    "word": "speed",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "limit"
+    ]
+  },
+  {
+    "word": "deep",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "literary",
+      "flesh"
+    ]
+  },
+  {
+    "word": "worry",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "minor"
+    ]
+  },
+  {
+    "word": "special",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "occasion",
+      "charm"
+    ]
+  },
+  {
+    "word": "reason",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "particular",
+      "chief"
+    ]
+  },
+  {
+    "word": "song",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "popular"
+    ]
+  },
+  {
+    "word": "pain",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "chronic",
+      "diminish"
+    ]
+  },
+  {
+    "word": "meal",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "complement",
+      "satisfy"
+    ]
+  },
+  {
+    "word": "offer",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "refuse"
+    ]
+  },
+  {
+    "word": "safe",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "relief",
+      "trust"
+    ]
+  },
+  {
+    "word": "engine",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "repair",
+      "mechanic"
+    ]
+  },
+  {
+    "word": "spend",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "ridiculous"
+    ]
+  },
+  {
+    "word": "condition",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "consult"
+    ]
+  },
+  {
+    "word": "table",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "satisfy",
+      "artificial"
+    ]
+  },
+  {
+    "word": "careful",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "sharp"
+    ]
+  },
+  {
+    "word": "delay",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "slight",
+      "chief"
+    ]
+  },
+  {
+    "word": "ice",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "spin",
+      "melt"
+    ]
+  },
+  {
+    "word": "dark",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "suppose",
+      "illuminate"
+    ]
+  },
+  {
+    "word": "leg",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "surgery",
+      "agony"
+    ]
+  },
+  {
+    "word": "stage",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "trial"
+    ]
+  },
+  {
+    "word": "possible",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "ultimate"
+    ]
+  },
+  {
+    "word": "middle",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "alarm"
+    ]
+  },
+  {
+    "word": "fine",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "assure"
+    ]
+  },
+  {
+    "word": "rope",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "bind"
+    ]
+  },
+  {
+    "word": "truly",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "breadth",
+      "magnificent"
+    ]
+  },
+  {
+    "word": "fence",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "chain",
+      "leap"
+    ]
+  },
+  {
+    "word": "ground",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "coin"
+    ]
+  },
+  {
+    "word": "citizens",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "eligible",
+      "advocate"
+    ]
+  },
+  {
+    "word": "operation",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "consent"
+    ]
+  },
+  {
+    "word": "quick",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "diagnosis"
+    ]
+  },
+  {
+    "word": "harmful",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "emit",
+      "exposure"
+    ]
+  },
+  {
+    "word": "rich",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "ethnic",
+      "gulf"
+    ]
+  },
+  {
+    "word": "soft",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "fabric"
+    ]
+  },
+  {
+    "word": "courage",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "fate",
+      "admire"
+    ]
+  },
+  {
+    "word": "love",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "foster"
+    ]
+  },
+  {
+    "word": "while",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "interrupt",
+      "grasp"
+    ]
+  },
+  {
+    "word": "collect",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "luggage"
+    ]
+  },
+  {
+    "word": "museum",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "mill",
+      "locomotive"
+    ]
+  },
+  {
+    "word": "desk",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "neat",
+      "pile"
+    ]
+  },
+  {
+    "word": "heart",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "organ"
+    ]
+  },
+  {
+    "word": "hidden",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "poison"
+    ]
+  },
+  {
+    "word": "board",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "bulletin"
+    ]
+  },
+  {
+    "word": "amazing",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "capability"
+    ]
+  },
+  {
+    "word": "expert",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "commentary"
+    ]
+  },
+  {
+    "word": "salary",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "decent"
+    ]
+  },
+  {
+    "word": "moment",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "decisive"
+    ]
+  },
+  {
+    "word": "movement",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "detect"
+    ]
+  },
+  {
+    "word": "discuss",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "summit"
+    ]
+  },
+  {
+    "word": "station",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "adjacent"
+    ]
+  },
+  {
+    "word": "value",
+    "count": 3,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "aesthetic"
+    ]
+  },
+  {
+    "word": "framework",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "system",
+      "structure",
+      "infrastructure"
+    ]
+  },
+  {
+    "word": "characteristic",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "feature",
+      "attribute",
+      "typical"
+    ]
+  },
+  {
+    "word": "definite",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "specific",
+      "concrete",
+      "explicit"
+    ]
+  },
+  {
+    "word": "decrease",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "reduce",
+      "decline",
+      "diminish"
+    ]
+  },
+  {
+    "word": "match",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "compare",
+      "correspond",
+      "contest"
+    ]
+  },
+  {
+    "word": "join",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "attach",
+      "participate",
+      "enroll"
+    ]
+  },
+  {
+    "word": "importance",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "emphasis",
+      "priority",
+      "magnitude"
+    ]
+  },
+  {
+    "word": "suitable",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "appropriate",
+      "compatible",
+      "eligible"
+    ]
+  },
+  {
+    "word": "drop",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "decline",
+      "plunge",
+      "descend"
+    ]
+  },
+  {
+    "word": "outlook",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "perspective",
+      "prospect",
+      "attitude"
+    ]
+  },
+  {
+    "word": "tool",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "device",
+      "instrument",
+      "weapon"
+    ]
+  },
+  {
+    "word": "appear",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "emerge",
+      "arise",
+      "pop"
+    ]
+  },
+  {
+    "word": "mark",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "symbol",
+      "label",
+      "trace"
+    ]
+  },
+  {
+    "word": "surrender",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "submit",
+      "sacrifice",
+      "yield"
+    ]
+  },
+  {
+    "word": "defend",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "justify",
+      "protect",
+      "guard"
+    ]
+  },
+  {
+    "word": "guess",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "estimate",
+      "suppose",
+      "presume"
+    ]
+  },
+  {
+    "word": "extensive",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "comprehensive",
+      "widespread",
+      "broad"
+    ]
+  },
+  {
+    "word": "display",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "demonstrate",
+      "parade",
+      "manifest"
+    ]
+  },
+  {
+    "word": "debate",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "controversy",
+      "argue",
+      "dispute"
+    ]
+  },
+  {
+    "word": "bear",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "endure",
+      "tolerate",
+      "afford"
+    ]
+  },
+  {
+    "word": "certain",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "inevitable",
+      "confident",
+      "particular"
+    ]
+  },
+  {
+    "word": "hinder",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "interfere",
+      "block",
+      "prevent"
+    ]
+  },
+  {
+    "word": "eager",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "keen",
+      "willing",
+      "enthusiastic"
+    ]
+  },
+  {
+    "word": "marvel",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "phenomenon",
+      "miracle",
+      "wonder"
+    ]
+  },
+  {
+    "word": "prosper",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "flourish",
+      "succeed",
+      "thrive"
+    ]
+  },
+  {
+    "word": "crude",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "gross",
+      "primitive",
+      "raw"
+    ]
+  },
+  {
+    "word": "hint",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "indication",
+      "imply",
+      "clue"
+    ]
+  },
+  {
+    "word": "unclear",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "obscure",
+      "opaque",
+      "vague"
+    ]
+  },
+  {
+    "word": "sign up",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "subscribe",
+      "register",
+      "enroll"
+    ]
+  },
+  {
+    "word": "spark",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "trigger",
+      "flame",
+      "flash"
+    ]
+  },
+  {
+    "word": "bright",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "vivid",
+      "smart",
+      "brilliant"
+    ]
+  },
+  {
+    "word": "retreat",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "withdraw",
+      "flee",
+      "resort"
+    ]
+  },
+  {
+    "word": "alert",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "conscious",
+      "warn",
+      "alarm"
+    ]
+  },
+  {
+    "word": "charge",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "expense",
+      "accuse",
+      "commission"
+    ]
+  },
+  {
+    "word": "discover",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "explore",
+      "locate",
+      "detect"
+    ]
+  },
+  {
+    "word": "genuine",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "authentic",
+      "sincere",
+      "earnest"
+    ]
+  },
+  {
+    "word": "sanction",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "authorize",
+      "punishment",
+      "penalty"
+    ]
+  },
+  {
+    "word": "advise",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "inform",
+      "recommend",
+      "warn"
+    ]
+  },
+  {
+    "word": "put in",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "install",
+      "invest",
+      "insert"
+    ]
+  },
+  {
+    "word": "conversation",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "interview",
+      "dialogue",
+      "discourse"
+    ]
+  },
+  {
+    "word": "usual",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "normal",
+      "ordinary",
+      "typical"
+    ]
+  },
+  {
+    "word": "earlier",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "previous",
+      "prior",
+      "beforehand"
+    ]
+  },
+  {
+    "word": "alliance",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "coalition",
+      "union",
+      "league"
+    ]
+  },
+  {
+    "word": "lift",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "raise",
+      "boost",
+      "elevate"
+    ]
+  },
+  {
+    "word": "tone",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "shade",
+      "pitch",
+      "accent"
+    ]
+  },
+  {
+    "word": "protection",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "shelter",
+      "conservation",
+      "custody"
+    ]
+  },
+  {
+    "word": "flaw",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "defect",
+      "weakness",
+      "bug"
+    ]
+  },
+  {
+    "word": "trick",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "trap",
+      "cheat",
+      "mislead"
+    ]
+  },
+  {
+    "word": "fortune",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "wealth",
+      "destiny",
+      "fate"
+    ]
+  },
+  {
+    "word": "next to",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "beside",
+      "alongside",
+      "adjacent"
+    ]
+  },
+  {
+    "word": "deceive",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "betray",
+      "cheat",
+      "mislead"
+    ]
+  },
+  {
+    "word": "discharge",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "emission",
+      "emit",
+      "dismiss"
+    ]
+  },
+  {
+    "word": "limitation",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "constraint",
+      "disability",
+      "handicap"
+    ]
+  },
+  {
+    "word": "contaminate",
+    "count": 3,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "infect",
+      "poison",
+      "pollute"
+    ]
+  },
+  {
+    "word": "suggestion",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "consider"
+    ]
+  },
+  {
+    "word": "fashion",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "design"
+    ]
+  },
+  {
+    "word": "meet",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "standard"
+    ]
+  },
+  {
+    "word": "dream",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "achieve"
+    ]
+  },
+  {
+    "word": "danger",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "represent"
+    ]
+  },
+  {
+    "word": "stadium",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "capacity"
+    ]
+  },
+  {
+    "word": "difference",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "positive"
+    ]
+  },
+  {
+    "word": "relaxation",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "associate"
+    ]
+  },
+  {
+    "word": "happy",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "apparent"
+    ]
+  },
+  {
+    "word": "file",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "convert"
+    ]
+  },
+  {
+    "word": "desert",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "vast"
+    ]
+  },
+  {
+    "word": "bags",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "restrict"
+    ]
+  },
+  {
+    "word": "deal",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "negotiate"
+    ]
+  },
+  {
+    "word": "term",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "assess"
+    ]
+  },
+  {
+    "word": "hardship",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "endure"
+    ]
+  },
+  {
+    "word": "countryside",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "landscape"
+    ]
+  },
+  {
+    "word": "excited",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "prospect"
+    ]
+  },
+  {
+    "word": "film",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "narrative"
+    ]
+  },
+  {
+    "word": "invention",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "patent"
+    ]
+  },
+  {
+    "word": "response",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "provoke"
+    ]
+  },
+  {
+    "word": "save",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "simplify"
+    ]
+  },
+  {
+    "word": "magazine",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "subscribe"
+    ]
+  },
+  {
+    "word": "recipe",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "substitute"
+    ]
+  },
+  {
+    "word": "lesson",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "visual"
+    ]
+  },
+  {
+    "word": "location",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "convenient"
+    ]
+  },
+  {
+    "word": "receive",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "allowance"
+    ]
+  },
+  {
+    "word": "fairness",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "justice"
+    ]
+  },
+  {
+    "word": "alone",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "lonely"
+    ]
+  },
+  {
+    "word": "victory",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "nation"
+    ]
+  },
+  {
+    "word": "hope",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "offend"
+    ]
+  },
+  {
+    "word": "round",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "opponent"
+    ]
+  },
+  {
+    "word": "fast",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "pace"
+    ]
+  },
+  {
+    "word": "damage",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "compensate"
+    ]
+  },
+  {
+    "word": "illness",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "recover"
+    ]
+  },
+  {
+    "word": "scenery",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "region"
+    ]
+  },
+  {
+    "word": "crowd",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "conspicuous"
+    ]
+  },
+  {
+    "word": "higher",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "strike"
+    ]
+  },
+  {
+    "word": "package",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "string"
+    ]
+  },
+  {
+    "word": "rush",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "traffic"
+    ]
+  },
+  {
+    "word": "secret",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "trust"
+    ]
+  },
+  {
+    "word": "resource",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "valuable"
+    ]
+  },
+  {
+    "word": "ahead",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "warn"
+    ]
+  },
+  {
+    "word": "gift",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "wrap"
+    ]
+  },
+  {
+    "word": "truth",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "accuse"
+    ]
+  },
+  {
+    "word": "real",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "artificial"
+    ]
+  },
+  {
+    "word": "fill",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "blank"
+    ]
+  },
+  {
+    "word": "bang",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "burst"
+    ]
+  },
+  {
+    "word": "emergency",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "calm"
+    ]
+  },
+  {
+    "word": "statement",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "clarify"
+    ]
+  },
+  {
+    "word": "chaos",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "amid"
+    ]
+  },
+  {
+    "word": "sale",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "commission"
+    ]
+  },
+  {
+    "word": "winner",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "criterion"
+    ]
+  },
+  {
+    "word": "reflection",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "distort"
+    ]
+  },
+  {
+    "word": "sink",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "drain"
+    ]
+  },
+  {
+    "word": "concentration",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "fatigue"
+    ]
+  },
+  {
+    "word": "hurried",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "glance"
+    ]
+  },
+  {
+    "word": "poor",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "gulf"
+    ]
+  },
+  {
+    "word": "hang",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "hook"
+    ]
+  },
+  {
+    "word": "coat",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "hook"
+    ]
+  },
+  {
+    "word": "crib",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "infant"
+    ]
+  },
+  {
+    "word": "lock",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "insert"
+    ]
+  },
+  {
+    "word": "germs",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "invisible"
+    ]
+  },
+  {
+    "word": "pool",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "lane"
+    ]
+  },
+  {
+    "word": "believe",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "literally"
+    ]
+  },
+  {
+    "word": "silent",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "mode"
+    ]
+  },
+  {
+    "word": "sudden",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "halt"
+    ]
+  },
+  {
+    "word": "determination",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "admire"
+    ]
+  },
+  {
+    "word": "text",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "align"
+    ]
+  },
+  {
+    "word": "flying",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "altitude"
+    ]
+  },
+  {
+    "word": "mix",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "ingredient"
+    ]
+  },
+  {
+    "word": "baby",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "crawl"
+    ]
+  },
+  {
+    "word": "digital",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "era"
+    ]
+  },
+  {
+    "word": "discovery",
+    "count": 2,
+    "fromSentence": true,
+    "fromSynonym": true,
+    "sources": [
+      "realm"
+    ]
+  },
+  {
+    "word": "strength",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "power",
+      "intensity"
+    ]
+  },
+  {
+    "word": "grade",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "quality",
+      "rank"
+    ]
+  },
+  {
+    "word": "benchmark",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "standard",
+      "criterion"
+    ]
+  },
+  {
+    "word": "step",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "measure",
+      "phase"
+    ]
+  },
+  {
+    "word": "attain",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "achieve",
+      "reach"
+    ]
+  },
+  {
+    "word": "root",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "source",
+      "origin"
+    ]
+  },
+  {
+    "word": "trait",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "feature",
+      "attribute"
+    ]
+  },
+  {
+    "word": "entry",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "access",
+      "input"
+    ]
+  },
+  {
+    "word": "neighborhood",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "community",
+      "local"
+    ]
+  },
+  {
+    "word": "set up",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "establish",
+      "install"
+    ]
+  },
+  {
+    "word": "tangible",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "physical",
+      "concrete"
+    ]
+  },
+  {
+    "word": "template",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "pattern",
+      "blueprint"
+    ]
+  },
+  {
+    "word": "escape",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "avoid",
+      "flee"
+    ]
+  },
+  {
+    "word": "strain",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "pressure",
+      "tension"
+    ]
+  },
+  {
+    "word": "contrast",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "compare",
+      "comparison"
+    ]
+  },
+  {
+    "word": "personal",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "private",
+      "intimate"
+    ]
+  },
+  {
+    "word": "personnel",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "staff",
+      "workforce"
+    ]
+  },
+  {
+    "word": "impression",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "image",
+      "impact"
+    ]
+  },
+  {
+    "word": "bring in",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "introduce",
+      "import"
+    ]
+  },
+  {
+    "word": "assortment",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "variety",
+      "array"
+    ]
+  },
+  {
+    "word": "depict",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "represent",
+      "describe"
+    ]
+  },
+  {
+    "word": "crucial",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "critical",
+      "vital"
+    ]
+  },
+  {
+    "word": "worldwide",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "global",
+      "universal"
+    ]
+  },
+  {
+    "word": "dare",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "challenge",
+      "venture"
+    ]
+  },
+  {
+    "word": "carry",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "transport",
+      "convey"
+    ]
+  },
+  {
+    "word": "necessary",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "essential",
+      "indispensable"
+    ]
+  },
+  {
+    "word": "fiscal",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "financial",
+      "monetary"
+    ]
+  },
+  {
+    "word": "inner",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "internal",
+      "interior"
+    ]
+  },
+  {
+    "word": "record",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "document",
+      "register"
+    ]
+  },
+  {
+    "word": "deliver",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "supply",
+      "distribute"
+    ]
+  },
+  {
+    "word": "expenditure",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "investment",
+      "expense"
+    ]
+  },
+  {
+    "word": "choice",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "alternative",
+      "option"
+    ]
+  },
+  {
+    "word": "colleague",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "associate",
+      "partner"
+    ]
+  },
+  {
+    "word": "viewpoint",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "perspective",
+      "attitude"
+    ]
+  },
+  {
+    "word": "angle",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "perspective",
+      "aspect"
+    ]
+  },
+  {
+    "word": "unite",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "combine",
+      "merge"
+    ]
+  },
+  {
+    "word": "percentage",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "proportion",
+      "ratio"
+    ]
+  },
+  {
+    "word": "gadget",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "device",
+      "appliance"
+    ]
+  },
+  {
+    "word": "count on",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "rely",
+      "depend"
+    ]
+  },
+  {
+    "word": "sketch",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "draft",
+      "outline"
+    ]
+  },
+  {
+    "word": "give up",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "abandon",
+      "sacrifice"
+    ]
+  },
+  {
+    "word": "exact",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "accurate",
+      "precise"
+    ]
+  },
+  {
+    "word": "emblem",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "symbol",
+      "badge"
+    ]
+  },
+  {
+    "word": "uncover",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "expose",
+      "reveal"
+    ]
+  },
+  {
+    "word": "foresee",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "anticipate",
+      "predict"
+    ]
+  },
+  {
+    "word": "objection",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "protest",
+      "resistance"
+    ]
+  },
+  {
+    "word": "gather",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "accumulate",
+      "compile"
+    ]
+  },
+  {
+    "word": "weight",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "burden",
+      "load"
+    ]
+  },
+  {
+    "word": "magnify",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "exaggerate",
+      "enlarge"
+    ]
+  },
+  {
+    "word": "scorn",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "contempt",
+      "despise"
+    ]
+  },
+  {
+    "word": "guidance",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "counsel",
+      "leadership"
+    ]
+  },
+  {
+    "word": "deficiency",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "deficit",
+      "lack"
+    ]
+  },
+  {
+    "word": "exclude",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "eliminate",
+      "omit"
+    ]
+  },
+  {
+    "word": "alike",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "identical",
+      "similar"
+    ]
+  },
+  {
+    "word": "lesser",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "inferior",
+      "minor"
+    ]
+  },
+  {
+    "word": "subordinate",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "inferior",
+      "junior"
+    ]
+  },
+  {
+    "word": "tolerant",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "liberal",
+      "patient"
+    ]
+  },
+  {
+    "word": "generous",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "liberal",
+      "ample"
+    ]
+  },
+  {
+    "word": "beginning",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "initial",
+      "origin"
+    ]
+  },
+  {
+    "word": "intrude",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "interfere",
+      "invade"
+    ]
+  },
+  {
+    "word": "regulation",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "legislation",
+      "code"
+    ]
+  },
+  {
+    "word": "disregard",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "neglect",
+      "ignore"
+    ]
+  },
+  {
+    "word": "responsibility",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "obligation",
+      "duty"
+    ]
+  },
+  {
+    "word": "hurdle",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "obstacle",
+      "barrier"
+    ]
+  },
+  {
+    "word": "lasting",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "permanent",
+      "durable"
+    ]
+  },
+  {
+    "word": "possibility",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "prospect",
+      "likelihood"
+    ]
+  },
+  {
+    "word": "choose",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "select",
+      "prefer"
+    ]
+  },
+  {
+    "word": "fund",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "sponsor",
+      "invest"
+    ]
+  },
+  {
+    "word": "extra",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "supplement",
+      "surplus"
+    ]
+  },
+  {
+    "word": "deal with",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "tackle",
+      "treat"
+    ]
+  },
+  {
+    "word": "interim",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "temporary",
+      "meantime"
+    ]
+  },
+  {
+    "word": "subject",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "theme",
+      "topic"
+    ]
+  },
+  {
+    "word": "take on",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "undertake",
+      "assume"
+    ]
+  },
+  {
+    "word": "timetable",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "calendar",
+      "schedule"
+    ]
+  },
+  {
+    "word": "precision",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "clarity",
+      "accuracy"
+    ]
+  },
+  {
+    "word": "repeat",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "echo",
+      "quote"
+    ]
+  },
+  {
+    "word": "peek",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "glimpse",
+      "glance"
+    ]
+  },
+  {
+    "word": "stern",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "harsh",
+      "strict"
+    ]
+  },
+  {
+    "word": "inheritance",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "heritage",
+      "legacy"
+    ]
+  },
+  {
+    "word": "indicator",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "index",
+      "signal"
+    ]
+  },
+  {
+    "word": "persuade",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "induce",
+      "convince"
+    ]
+  },
+  {
+    "word": "academic",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "intellectual",
+      "scholar"
+    ]
+  },
+  {
+    "word": "bow",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "kneel",
+      "nod"
+    ]
+  },
+  {
+    "word": "authorization",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "license",
+      "franchise"
+    ]
+  },
+  {
+    "word": "arm",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "limb",
+      "weapon"
+    ]
+  },
+  {
+    "word": "relocate",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "migrate",
+      "transfer"
+    ]
+  },
+  {
+    "word": "tale",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "narrative",
+      "legend"
+    ]
+  },
+  {
+    "word": "vow",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "pledge",
+      "promise"
+    ]
+  },
+  {
+    "word": "bonus",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "premium",
+      "reward"
+    ]
+  },
+  {
+    "word": "anger",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "provoke",
+      "outrage"
+    ]
+  },
+  {
+    "word": "cure",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "therapy",
+      "treat"
+    ]
+  },
+  {
+    "word": "outfit",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "uniform",
+      "costume"
+    ]
+  },
+  {
+    "word": "revise",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "update",
+      "amend"
+    ]
+  },
+  {
+    "word": "legitimate",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "valid",
+      "legal"
+    ]
+  },
+  {
+    "word": "weak",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "vulnerable",
+      "lame"
+    ]
+  },
+  {
+    "word": "prosperity",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "welfare",
+      "wealth"
+    ]
+  },
+  {
+    "word": "pull out",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "withdraw",
+      "extract"
+    ]
+  },
+  {
+    "word": "mindful",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "aware",
+      "conscious"
+    ]
+  },
+  {
+    "word": "district",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "zone",
+      "region"
+    ]
+  },
+  {
+    "word": "rival",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "compete",
+      "opponent"
+    ]
+  },
+  {
+    "word": "verify",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "confirm",
+      "prove"
+    ]
+  },
+  {
+    "word": "partnership",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "cooperation",
+      "coalition"
+    ]
+  },
+  {
+    "word": "payment",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "allowance",
+      "deposit"
+    ]
+  },
+  {
+    "word": "equipment",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "apparatus",
+      "gear"
+    ]
+  },
+  {
+    "word": "allow",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "enable",
+      "permit"
+    ]
+  },
+  {
+    "word": "collection",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "array",
+      "cluster"
+    ]
+  },
+  {
+    "word": "envision",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "imagine",
+      "conceive"
+    ]
+  },
+  {
+    "word": "feedback",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "input",
+      "reaction"
+    ]
+  },
+  {
+    "word": "second",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "instant",
+      "latter"
+    ]
+  },
+  {
+    "word": "slim",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "lean",
+      "narrow"
+    ]
+  },
+  {
+    "word": "nearby",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "local",
+      "adjacent"
+    ]
+  },
+  {
+    "word": "violation",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "breach",
+      "offense"
+    ]
+  },
+  {
+    "word": "style",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "manner",
+      "mode"
+    ]
+  },
+  {
+    "word": "type",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "breed",
+      "category"
+    ]
+  },
+  {
+    "word": "refer to",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "mention",
+      "consult"
+    ]
+  },
+  {
+    "word": "thin",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "narrow",
+      "shallow"
+    ]
+  },
+  {
+    "word": "however",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "nevertheless",
+      "nonetheless"
+    ]
+  },
+  {
+    "word": "defeat",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "overcome",
+      "conquer"
+    ]
+  },
+  {
+    "word": "inactive",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "passive",
+      "idle"
+    ]
+  },
+  {
+    "word": "return",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "profit",
+      "restore"
+    ]
+  },
+  {
+    "word": "perceptive",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "cognitive",
+      "sensitive"
+    ]
+  },
+  {
+    "word": "reference",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "quote",
+      "cite"
+    ]
+  },
+  {
+    "word": "unusual",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "rare",
+      "peculiar"
+    ]
+  },
+  {
+    "word": "identification",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "recognition",
+      "diagnosis"
+    ]
+  },
+  {
+    "word": "fruitful",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "productive",
+      "fertile"
+    ]
+  },
+  {
+    "word": "possession",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "property",
+      "ownership"
+    ]
+  },
+  {
+    "word": "discipline",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "punishment",
+      "punish"
+    ]
+  },
+  {
+    "word": "admit",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "confess",
+      "acknowledge"
+    ]
+  },
+  {
+    "word": "comply",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "conform",
+      "adhere"
+    ]
+  },
+  {
+    "word": "ease",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "relief",
+      "convenience"
+    ]
+  },
+  {
+    "word": "legislature",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "congress",
+      "parliament"
+    ]
+  },
+  {
+    "word": "doubt",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "reservation",
+      "suspect"
+    ]
+  },
+  {
+    "word": "opposite",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "reverse",
+      "contrary"
+    ]
+  },
+  {
+    "word": "silly",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "ridiculous",
+      "absurd"
+    ]
+  },
+  {
+    "word": "noticeable",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "conspicuous",
+      "visible"
+    ]
+  },
+  {
+    "word": "habit",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "routine",
+      "custom"
+    ]
+  },
+  {
+    "word": "size",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "scale",
+      "magnitude"
+    ]
+  },
+  {
+    "word": "researcher",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "scholar",
+      "historian"
+    ]
+  },
+  {
+    "word": "search",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "seek",
+      "quest"
+    ]
+  },
+  {
+    "word": "dirt",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "soil",
+      "dust"
+    ]
+  },
+  {
+    "word": "divide",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "split",
+      "gulf"
+    ]
+  },
+  {
+    "word": "emphasize",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "stress",
+      "highlight"
+    ]
+  },
+  {
+    "word": "cord",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "string",
+      "cable"
+    ]
+  },
+  {
+    "word": "battle",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "struggle",
+      "combat"
+    ]
+  },
+  {
+    "word": "pity",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "sympathy",
+      "mercy"
+    ]
+  },
+  {
+    "word": "disposition",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "tendency",
+      "mood"
+    ]
+  },
+  {
+    "word": "congestion",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "traffic",
+      "jam"
+    ]
+  },
+  {
+    "word": "drift",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "wander",
+      "float"
+    ]
+  },
+  {
+    "word": "plentiful",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "abundant",
+      "ample"
+    ]
+  },
+  {
+    "word": "blame",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "accuse",
+      "condemn"
+    ]
+  },
+  {
+    "word": "envoy",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "diplomat",
+      "ambassador"
+    ]
+  },
+  {
+    "word": "desire",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "appetite",
+      "greed"
+    ]
+  },
+  {
+    "word": "craving",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "appetite",
+      "hunger"
+    ]
+  },
+  {
+    "word": "throw away",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "discard",
+      "dump"
+    ]
+  },
+  {
+    "word": "ray",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "beam",
+      "laser"
+    ]
+  },
+  {
+    "word": "partiality",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "bias",
+      "prejudice"
+    ]
+  },
+  {
+    "word": "resentful",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "bitter",
+      "jealous"
+    ]
+  },
+  {
+    "word": "bare",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "blank",
+      "naked"
+    ]
+  },
+  {
+    "word": "void",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "blank",
+      "hollow"
+    ]
+  },
+  {
+    "word": "courageous",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "bold",
+      "brave"
+    ]
+  },
+  {
+    "word": "forward",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "dispatch",
+      "forth"
+    ]
+  },
+  {
+    "word": "tire",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "bore",
+      "exhaust"
+    ]
+  },
+  {
+    "word": "bundle",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "bunch",
+      "pack"
+    ]
+  },
+  {
+    "word": "annul",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "cancel",
+      "abolish"
+    ]
+  },
+  {
+    "word": "ruin",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "doom",
+      "destruction"
+    ]
+  },
+  {
+    "word": "passage",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "channel",
+      "paragraph"
+    ]
+  },
+  {
+    "word": "enchant",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "charm",
+      "fascinate"
+    ]
+  },
+  {
+    "word": "association",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "union",
+      "league"
+    ]
+  },
+  {
+    "word": "celebration",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "ceremony",
+      "feast"
+    ]
+  },
+  {
+    "word": "kindness",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "compassion",
+      "humanity"
+    ]
+  },
+  {
+    "word": "hide",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "conceal",
+      "leather"
+    ]
+  },
+  {
+    "word": "landmass",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "continent",
+      "mainland"
+    ]
+  },
+  {
+    "word": "discourage",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "depress",
+      "disappoint"
+    ]
+  },
+  {
+    "word": "disturb",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "distract",
+      "interrupt"
+    ]
+  },
+  {
+    "word": "deplete",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "drain",
+      "exhaust"
+    ]
+  },
+  {
+    "word": "starvation",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "famine",
+      "hunger"
+    ]
+  },
+  {
+    "word": "reputation",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "fame",
+      "prestige"
+    ]
+  },
+  {
+    "word": "gleam",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "flash",
+      "glow"
+    ]
+  },
+  {
+    "word": "seed",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "grain",
+      "kernel"
+    ]
+  },
+  {
+    "word": "bit",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "fragment",
+      "particle"
+    ]
+  },
+  {
+    "word": "idol",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "hero",
+      "icon"
+    ]
+  },
+  {
+    "word": "sphere",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "globe",
+      "arena"
+    ]
+  },
+  {
+    "word": "skin",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "leather",
+      "membrane"
+    ]
+  },
+  {
+    "word": "sorrow",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "grief",
+      "mourn"
+    ]
+  },
+  {
+    "word": "guide",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "manual",
+      "navigate"
+    ]
+  },
+  {
+    "word": "monument",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "memorial",
+      "landmark"
+    ]
+  },
+  {
+    "word": "enigma",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "mystery",
+      "puzzle"
+    ]
+  },
+  {
+    "word": "riddle",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "mystery",
+      "puzzle"
+    ]
+  },
+  {
+    "word": "stack",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "heap",
+      "pile"
+    ]
+  },
+  {
+    "word": "mound",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "heap",
+      "pile"
+    ]
+  },
+  {
+    "word": "beg",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "pray",
+      "plead"
+    ]
+  },
+  {
+    "word": "implore",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "pray",
+      "plead"
+    ]
+  },
+  {
+    "word": "quarters",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "accommodation",
+      "dormitory"
+    ]
+  },
+  {
+    "word": "strange",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "alien",
+      "peculiar"
+    ]
+  },
+  {
+    "word": "sovereign",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "autonomous",
+      "imperial"
+    ]
+  },
+  {
+    "word": "satire",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "comedy",
+      "irony"
+    ]
+  },
+  {
+    "word": "confuse",
+    "count": 2,
+    "fromSentence": false,
+    "fromSynonym": true,
+    "sources": [
+      "complicate",
+      "puzzle"
+    ]
+  }
+]

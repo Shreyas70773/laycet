@@ -1,0 +1,2053 @@
+[
+  {
+    "id": "w31-001",
+    "word": "company",
+    "chinese": "公司;陪伴",
+    "ipa": "/ˈkʌmpəni/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "She works for a large company in the city.",
+    "synonyms": [
+      "firm",
+      "corporation",
+      "business"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-002",
+    "word": "please",
+    "chinese": "请;使高兴",
+    "ipa": "/pliːz/",
+    "partOfSpeech": "v./adv.",
+    "exampleSentence": "Please open the window.",
+    "synonyms": [
+      "satisfy",
+      "delight"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-003",
+    "word": "students",
+    "chinese": "学生(复数)",
+    "ipa": "/ˈstjuːdənts/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The students are studying for the exam.",
+    "synonyms": [
+      "pupils",
+      "learners"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-004",
+    "word": "plan",
+    "chinese": "计划;方案",
+    "ipa": "/plæn/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "We need to plan our schedule for next week.",
+    "synonyms": [
+      "scheme",
+      "strategy",
+      "design"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-005",
+    "word": "hard",
+    "chinese": "困难的;努力地;硬的",
+    "ipa": "/hɑːrd/",
+    "partOfSpeech": "adj./adv.",
+    "exampleSentence": "She studied hard to pass the exam.",
+    "synonyms": [
+      "difficult",
+      "tough",
+      "challenging"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-006",
+    "word": "problem",
+    "chinese": "问题;难题",
+    "ipa": "/ˈprɑːbləm/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "We need to solve this problem quickly.",
+    "synonyms": [
+      "issue",
+      "difficulty",
+      "challenge"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-007",
+    "word": "teacher",
+    "chinese": "教师;老师",
+    "ipa": "/ˈtiːtʃər/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The teacher explained the lesson clearly.",
+    "synonyms": [
+      "instructor",
+      "educator",
+      "tutor"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-008",
+    "word": "decided",
+    "chinese": "决定了的",
+    "ipa": "/dɪˈsaɪdɪd/",
+    "partOfSpeech": "v.",
+    "exampleSentence": "They decided to move to a new city.",
+    "synonyms": [
+      "determined",
+      "resolved",
+      "chose"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-009",
+    "word": "team",
+    "chinese": "团队;队伍",
+    "ipa": "/tiːm/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Our team won the competition last year.",
+    "synonyms": [
+      "group",
+      "crew",
+      "squad"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-010",
+    "word": "education",
+    "chinese": "教育;学历",
+    "ipa": "/ˌedʒuˈkeɪʃn/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Education is the foundation of a strong society.",
+    "synonyms": [
+      "learning",
+      "instruction",
+      "schooling"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-011",
+    "word": "government",
+    "chinese": "政府;治理",
+    "ipa": "/ˈɡʌvərnmənt/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The government announced a new policy.",
+    "synonyms": [
+      "administration",
+      "authority",
+      "regime"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-012",
+    "word": "change",
+    "chinese": "改变;变化;零钱",
+    "ipa": "/tʃeɪndʒ/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "Climate change is a global challenge.",
+    "synonyms": [
+      "alter",
+      "modify",
+      "transform"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-013",
+    "word": "beautiful",
+    "chinese": "美丽的;漂亮的",
+    "ipa": "/ˈbjuːtɪfl/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "The garden looks beautiful in spring.",
+    "synonyms": [
+      "lovely",
+      "gorgeous",
+      "attractive"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-014",
+    "word": "everyone",
+    "chinese": "每个人;所有人",
+    "ipa": "/ˈevriwʌn/",
+    "partOfSpeech": "pron.",
+    "exampleSentence": "Everyone is welcome to join the meeting.",
+    "synonyms": [
+      "everybody",
+      "all"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-015",
+    "word": "lot",
+    "chinese": "许多;大量;一块地",
+    "ipa": "/lɑːt/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "There are a lot of books in the library.",
+    "synonyms": [
+      "plenty",
+      "abundance",
+      "batch"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-016",
+    "word": "main",
+    "chinese": "主要的;最重要的",
+    "ipa": "/meɪn/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "The main reason for the delay was the weather.",
+    "synonyms": [
+      "primary",
+      "chief",
+      "principal"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-017",
+    "word": "decision",
+    "chinese": "决定;决策;判断",
+    "ipa": "/dɪˈsɪʒn/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Making a good decision requires careful thought.",
+    "synonyms": [
+      "choice",
+      "judgment",
+      "resolution"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-018",
+    "word": "common",
+    "chinese": "常见的;共同的;普通的",
+    "ipa": "/ˈkɑːmən/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "It is common to see birds in the park.",
+    "synonyms": [
+      "usual",
+      "ordinary",
+      "widespread"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-019",
+    "word": "business",
+    "chinese": "商业;生意;事务",
+    "ipa": "/ˈbɪznəs/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "He started his own business last year.",
+    "synonyms": [
+      "commerce",
+      "trade",
+      "enterprise"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-020",
+    "word": "different",
+    "chinese": "不同的;各种的",
+    "ipa": "/ˈdɪfrənt/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "People have different opinions on this topic.",
+    "synonyms": [
+      "various",
+      "diverse",
+      "distinct"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-021",
+    "word": "health",
+    "chinese": "健康;卫生",
+    "ipa": "/helθ/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Regular exercise is important for your health.",
+    "synonyms": [
+      "wellness",
+      "fitness",
+      "well-being"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-022",
+    "word": "weather",
+    "chinese": "天气;气候",
+    "ipa": "/ˈweðər/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The weather is warm and sunny today.",
+    "synonyms": [
+      "climate",
+      "conditions"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-023",
+    "word": "group",
+    "chinese": "组;群;团体",
+    "ipa": "/ɡruːp/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "A group of tourists visited the museum.",
+    "synonyms": [
+      "team",
+      "cluster",
+      "assembly"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-024",
+    "word": "exam",
+    "chinese": "考试;检查",
+    "ipa": "/ɪɡˈzæm/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "She passed the final exam with high marks.",
+    "synonyms": [
+      "test",
+      "examination",
+      "assessment"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-025",
+    "word": "job",
+    "chinese": "工作;职业;任务",
+    "ipa": "/dʒɑːb/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Finding a good job is important for career growth.",
+    "synonyms": [
+      "occupation",
+      "position",
+      "employment"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-026",
+    "word": "future",
+    "chinese": "未来;将来;前途",
+    "ipa": "/ˈfjuːtʃər/",
+    "partOfSpeech": "n./adj.",
+    "exampleSentence": "We must plan carefully for the future.",
+    "synonyms": [
+      "prospect",
+      "upcoming",
+      "forthcoming"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-027",
+    "word": "exercise",
+    "chinese": "锻炼;练习;运动",
+    "ipa": "/ˈeksərsaɪz/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "Daily exercise helps maintain good health.",
+    "synonyms": [
+      "workout",
+      "training",
+      "practice"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-028",
+    "word": "morning",
+    "chinese": "早晨;上午",
+    "ipa": "/ˈmɔːrnɪŋ/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "I usually go for a run in the morning.",
+    "synonyms": [
+      "dawn",
+      "daybreak",
+      "sunrise"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-029",
+    "word": "area",
+    "chinese": "地区;区域;面积;领域",
+    "ipa": "/ˈeriə/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "This area is known for its beautiful scenery.",
+    "synonyms": [
+      "region",
+      "zone",
+      "district"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-030",
+    "word": "doctor",
+    "chinese": "医生;博士",
+    "ipa": "/ˈdɑːktər/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The doctor advised him to rest for a week.",
+    "synonyms": [
+      "physician",
+      "specialist",
+      "practitioner"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-031",
+    "word": "strong",
+    "chinese": "强壮的;坚强的;强烈的",
+    "ipa": "/strɔːŋ/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "She has a strong desire to succeed.",
+    "synonyms": [
+      "powerful",
+      "robust",
+      "intense"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-032",
+    "word": "finish",
+    "chinese": "完成;结束",
+    "ipa": "/ˈfɪnɪʃ/",
+    "partOfSpeech": "v./n.",
+    "exampleSentence": "I need to finish this report by tomorrow.",
+    "synonyms": [
+      "complete",
+      "conclude",
+      "end"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-033",
+    "word": "rain",
+    "chinese": "雨;下雨",
+    "ipa": "/reɪn/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "It started to rain in the afternoon.",
+    "synonyms": [
+      "precipitation",
+      "shower",
+      "downpour"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-034",
+    "word": "success",
+    "chinese": "成功;成就",
+    "ipa": "/səkˈses/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Hard work is the key to success.",
+    "synonyms": [
+      "achievement",
+      "triumph",
+      "accomplishment"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-035",
+    "word": "report",
+    "chinese": "报告;报道;汇报",
+    "ipa": "/rɪˈpɔːrt/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "The report was submitted on time.",
+    "synonyms": [
+      "account",
+      "statement",
+      "review"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-036",
+    "word": "difficult",
+    "chinese": "困难的;艰难的",
+    "ipa": "/ˈdɪfɪkəlt/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "Learning a new language can be difficult.",
+    "synonyms": [
+      "hard",
+      "challenging",
+      "tough"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-037",
+    "word": "law",
+    "chinese": "法律;法规;定律",
+    "ipa": "/lɔː/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Everyone must obey the law.",
+    "synonyms": [
+      "legislation",
+      "regulation",
+      "statute"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-038",
+    "word": "event",
+    "chinese": "事件;活动;比赛项目",
+    "ipa": "/ɪˈvent/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The charity event raised a lot of money.",
+    "synonyms": [
+      "occasion",
+      "occurrence",
+      "happening"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-039",
+    "word": "story",
+    "chinese": "故事;叙述;新闻报道",
+    "ipa": "/ˈstɔːri/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "She told the children a bedtime story.",
+    "synonyms": [
+      "tale",
+      "narrative",
+      "account"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-040",
+    "word": "class",
+    "chinese": "班级;课程;等级;种类",
+    "ipa": "/klæs/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The class starts at nine in the morning.",
+    "synonyms": [
+      "lesson",
+      "course",
+      "category"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-041",
+    "word": "road",
+    "chinese": "道路;公路;途径",
+    "ipa": "/roʊd/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The road was closed due to construction.",
+    "synonyms": [
+      "street",
+      "highway",
+      "path"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-042",
+    "word": "goal",
+    "chinese": "目标;球门;进球",
+    "ipa": "/ɡoʊl/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Setting clear goals helps you stay motivated.",
+    "synonyms": [
+      "aim",
+      "objective",
+      "target"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-043",
+    "word": "follow",
+    "chinese": "跟随;遵循;关注",
+    "ipa": "/ˈfɑːloʊ/",
+    "partOfSpeech": "v.",
+    "exampleSentence": "Please follow the instructions carefully.",
+    "synonyms": [
+      "pursue",
+      "trail",
+      "obey"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-044",
+    "word": "language",
+    "chinese": "语言;语言能力",
+    "ipa": "/ˈlæŋɡwɪdʒ/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Learning a new language opens many doors.",
+    "synonyms": [
+      "tongue",
+      "speech",
+      "dialect"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-045",
+    "word": "family",
+    "chinese": "家庭;家族;亲属",
+    "ipa": "/ˈfæməli/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Family is the most important thing in life.",
+    "synonyms": [
+      "household",
+      "relatives",
+      "kin"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-046",
+    "word": "modern",
+    "chinese": "现代的;近代的;新式的",
+    "ipa": "/ˈmɑːdərn/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "Modern technology has changed our daily lives.",
+    "synonyms": [
+      "contemporary",
+      "current",
+      "recent"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-047",
+    "word": "air",
+    "chinese": "空气;气氛;播送",
+    "ipa": "/er/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Fresh air is important for good health.",
+    "synonyms": [
+      "atmosphere",
+      "breeze",
+      "wind"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-048",
+    "word": "top",
+    "chinese": "顶部;最高的;超过",
+    "ipa": "/tɑːp/",
+    "partOfSpeech": "n./adj./v.",
+    "exampleSentence": "She reached the top of the mountain.",
+    "synonyms": [
+      "peak",
+      "summit",
+      "apex"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-049",
+    "word": "music",
+    "chinese": "音乐;乐曲",
+    "ipa": "/ˈmjuːzɪk/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Listening to music helps me relax.",
+    "synonyms": [
+      "melody",
+      "harmony",
+      "tune"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w31-050",
+    "word": "knowledge",
+    "chinese": "知识;了解;学问",
+    "ipa": "/ˈnɑːlɪdʒ/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Knowledge is the key to success.",
+    "synonyms": [
+      "understanding",
+      "awareness",
+      "wisdom"
+    ],
+    "day": 31,
+    "groupNumber": 31
+  },
+  {
+    "id": "w32-001",
+    "word": "information",
+    "chinese": "信息;情报;资料",
+    "ipa": "/ˌɪnfərˈmeɪʃn/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The website provides useful information.",
+    "synonyms": [
+      "data",
+      "knowledge",
+      "details"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-002",
+    "word": "clear",
+    "chinese": "清楚的;晴朗的;清除",
+    "ipa": "/klɪr/",
+    "partOfSpeech": "adj./v.",
+    "exampleSentence": "The sky was clear and blue.",
+    "synonyms": [
+      "obvious",
+      "transparent",
+      "evident"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-003",
+    "word": "public",
+    "chinese": "公共的;公众的;公开的",
+    "ipa": "/ˈpʌblɪk/",
+    "partOfSpeech": "adj./n.",
+    "exampleSentence": "The park is open to the public.",
+    "synonyms": [
+      "communal",
+      "civic",
+      "open"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-004",
+    "word": "increase",
+    "chinese": "增加;增长;增大",
+    "ipa": "/ɪnˈkriːs/",
+    "partOfSpeech": "v./n.",
+    "exampleSentence": "The company plans to increase production.",
+    "synonyms": [
+      "grow",
+      "rise",
+      "expand"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-005",
+    "word": "include",
+    "chinese": "包括;包含;列入",
+    "ipa": "/ɪnˈkluːd/",
+    "partOfSpeech": "v.",
+    "exampleSentence": "The price includes breakfast.",
+    "synonyms": [
+      "contain",
+      "comprise",
+      "incorporate"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-006",
+    "word": "cause",
+    "chinese": "原因;引起;事业",
+    "ipa": "/kɔːz/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "Pollution can cause serious health problems.",
+    "synonyms": [
+      "reason",
+      "origin",
+      "trigger"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-007",
+    "word": "situation",
+    "chinese": "情况;形势;处境",
+    "ipa": "/ˌsɪtʃuˈeɪʃn/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "We need to assess the situation before acting.",
+    "synonyms": [
+      "circumstance",
+      "condition",
+      "scenario"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-008",
+    "word": "free",
+    "chinese": "自由的;免费的;空闲的",
+    "ipa": "/friː/",
+    "partOfSpeech": "adj./v.",
+    "exampleSentence": "The museum offers free admission on weekends.",
+    "synonyms": [
+      "liberate",
+      "complimentary",
+      "unrestricted"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-009",
+    "word": "clean",
+    "chinese": "干净的;清洁;打扫",
+    "ipa": "/kliːn/",
+    "partOfSpeech": "adj./v.",
+    "exampleSentence": "Please keep the classroom clean.",
+    "synonyms": [
+      "tidy",
+      "spotless",
+      "pure"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-010",
+    "word": "task",
+    "chinese": "任务;工作;作业",
+    "ipa": "/tæsk/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Completing this task requires teamwork.",
+    "synonyms": [
+      "duty",
+      "assignment",
+      "job"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-011",
+    "word": "age",
+    "chinese": "年龄;时代;变老",
+    "ipa": "/eɪdʒ/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "People of all ages can enjoy this activity.",
+    "synonyms": [
+      "era",
+      "epoch",
+      "period"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-012",
+    "word": "answer",
+    "chinese": "回答;答案;解答",
+    "ipa": "/ˈænsər/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "Please answer the question in complete sentences.",
+    "synonyms": [
+      "reply",
+      "response",
+      "solution"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-013",
+    "word": "amount",
+    "chinese": "数量;金额;总数",
+    "ipa": "/əˈmaʊnt/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "The amount of homework has increased.",
+    "synonyms": [
+      "quantity",
+      "sum",
+      "total"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-014",
+    "word": "organization",
+    "chinese": "组织;机构;团体",
+    "ipa": "/ˌɔːrɡənəˈzeɪʃn/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The organization helps homeless people.",
+    "synonyms": [
+      "institution",
+      "association",
+      "agency"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-015",
+    "word": "spread",
+    "chinese": "传播;展开;蔓延",
+    "ipa": "/spred/",
+    "partOfSpeech": "v./n.",
+    "exampleSentence": "The news spread quickly through the town.",
+    "synonyms": [
+      "disseminate",
+      "expand",
+      "distribute"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-016",
+    "word": "explain",
+    "chinese": "解释;说明;阐述",
+    "ipa": "/ɪkˈspleɪn/",
+    "partOfSpeech": "v.",
+    "exampleSentence": "Can you explain this concept to me?",
+    "synonyms": [
+      "clarify",
+      "describe",
+      "illustrate"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-017",
+    "word": "create",
+    "chinese": "创造;创建;引起",
+    "ipa": "/kriˈeɪt/",
+    "partOfSpeech": "v.",
+    "exampleSentence": "The artist wants to create something unique.",
+    "synonyms": [
+      "make",
+      "produce",
+      "design"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-018",
+    "word": "whole",
+    "chinese": "整个的;全部的;完整的",
+    "ipa": "/hoʊl/",
+    "partOfSpeech": "adj./n.",
+    "exampleSentence": "The whole class passed the exam.",
+    "synonyms": [
+      "entire",
+      "complete",
+      "total"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-019",
+    "word": "example",
+    "chinese": "例子;榜样;实例",
+    "ipa": "/ɪɡˈzæmpl/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Please give me an example.",
+    "synonyms": [
+      "instance",
+      "sample",
+      "model"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-020",
+    "word": "across",
+    "chinese": "穿过;横穿;在对面",
+    "ipa": "/əˈkrɔːs/",
+    "partOfSpeech": "prep./adv.",
+    "exampleSentence": "She walked across the bridge.",
+    "synonyms": [
+      "over",
+      "through",
+      "spanning"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-021",
+    "word": "huge",
+    "chinese": "巨大的;庞大的",
+    "ipa": "/hjuːdʒ/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "The project was a huge success.",
+    "synonyms": [
+      "enormous",
+      "massive",
+      "immense"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-022",
+    "word": "accept",
+    "chinese": "接受;承认;同意",
+    "ipa": "/əkˈsept/",
+    "partOfSpeech": "v.",
+    "exampleSentence": "She decided to accept the job offer.",
+    "synonyms": [
+      "receive",
+      "approve",
+      "agree"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-023",
+    "word": "outside",
+    "chinese": "外面;外部;在...外面",
+    "ipa": "/ˌaʊtˈsaɪd/",
+    "partOfSpeech": "n./adj./prep./adv.",
+    "exampleSentence": "The children played outside all afternoon.",
+    "synonyms": [
+      "exterior",
+      "outer",
+      "external"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-024",
+    "word": "against",
+    "chinese": "反对;对着;靠着",
+    "ipa": "/əˈɡenst/",
+    "partOfSpeech": "prep.",
+    "exampleSentence": "She leaned against the wall.",
+    "synonyms": [
+      "opposing",
+      "versus",
+      "contrary to"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-025",
+    "word": "care",
+    "chinese": "关心;照顾;在意",
+    "ipa": "/ker/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "She takes great care of her garden.",
+    "synonyms": [
+      "concern",
+      "attention",
+      "caution"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-026",
+    "word": "together",
+    "chinese": "一起;共同;同时",
+    "ipa": "/təˈɡeðər/",
+    "partOfSpeech": "adv.",
+    "exampleSentence": "Let's work together to solve this problem.",
+    "synonyms": [
+      "jointly",
+      "collectively",
+      "mutually"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-027",
+    "word": "action",
+    "chinese": "行动;行为;作用",
+    "ipa": "/ˈækʃn/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "We need to take action immediately.",
+    "synonyms": [
+      "deed",
+      "activity",
+      "measure"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-028",
+    "word": "effort",
+    "chinese": "努力;力气;尝试",
+    "ipa": "/ˈefərt/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "It takes a lot of effort to learn a new skill.",
+    "synonyms": [
+      "attempt",
+      "endeavor",
+      "exertion"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-029",
+    "word": "among",
+    "chinese": "在...之中;在...中间",
+    "ipa": "/əˈmʌŋ/",
+    "partOfSpeech": "prep.",
+    "exampleSentence": "She is popular among her classmates.",
+    "synonyms": [
+      "amid",
+      "between",
+      "amongst"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-030",
+    "word": "piece",
+    "chinese": "片;块;一件;作品",
+    "ipa": "/piːs/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "She wrote a beautiful piece of music.",
+    "synonyms": [
+      "part",
+      "portion",
+      "fragment"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-031",
+    "word": "fire",
+    "chinese": "火;火灾;解雇;射击",
+    "ipa": "/faɪər/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "The fire spread quickly through the building.",
+    "synonyms": [
+      "blaze",
+      "flame",
+      "inferno"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-032",
+    "word": "research",
+    "chinese": "研究;调查",
+    "ipa": "/rɪˈsɜːrtʃ/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "The professor is conducting research on climate change.",
+    "synonyms": [
+      "study",
+      "investigation",
+      "inquiry"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-033",
+    "word": "express",
+    "chinese": "表达;快递;表示",
+    "ipa": "/ɪkˈspres/",
+    "partOfSpeech": "v./adj./n.",
+    "exampleSentence": "He expressed his feelings clearly.",
+    "synonyms": [
+      "convey",
+      "communicate",
+      "state"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-034",
+    "word": "opinion",
+    "chinese": "意见;看法;主张",
+    "ipa": "/əˈpɪnjən/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Everyone has a right to express their opinion.",
+    "synonyms": [
+      "view",
+      "belief",
+      "judgment"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-035",
+    "word": "data",
+    "chinese": "数据;资料;信息",
+    "ipa": "/ˈdeɪtə/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The data shows a clear trend.",
+    "synonyms": [
+      "information",
+      "facts",
+      "statistics"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-036",
+    "word": "matter",
+    "chinese": "事情;问题;物质;要紧",
+    "ipa": "/ˈmætər/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "What's the matter with you?",
+    "synonyms": [
+      "issue",
+      "subject",
+      "substance"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-037",
+    "word": "friend",
+    "chinese": "朋友;友人",
+    "ipa": "/frend/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "A true friend is always there for you.",
+    "synonyms": [
+      "companion",
+      "buddy",
+      "ally"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-038",
+    "word": "skill",
+    "chinese": "技能;技巧;本领",
+    "ipa": "/skɪl/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Communication is an important skill.",
+    "synonyms": [
+      "ability",
+      "talent",
+      "expertise"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-039",
+    "word": "idea",
+    "chinese": "想法;主意;概念",
+    "ipa": "/aɪˈdiːə/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "She came up with a brilliant idea.",
+    "synonyms": [
+      "concept",
+      "thought",
+      "notion"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-040",
+    "word": "level",
+    "chinese": "水平;等级;平坦的",
+    "ipa": "/ˈlevl/",
+    "partOfSpeech": "n./adj.",
+    "exampleSentence": "Her English level has improved greatly.",
+    "synonyms": [
+      "degree",
+      "standard",
+      "rank"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-041",
+    "word": "agree",
+    "chinese": "同意;赞成;一致",
+    "ipa": "/əˈɡriː/",
+    "partOfSpeech": "v.",
+    "exampleSentence": "I agree with your suggestion.",
+    "synonyms": [
+      "concur",
+      "consent",
+      "approve"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-042",
+    "word": "force",
+    "chinese": "力;武力;强迫",
+    "ipa": "/fɔːrs/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "The force of the wind was very strong.",
+    "synonyms": [
+      "power",
+      "strength",
+      "compel"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-043",
+    "word": "notice",
+    "chinese": "注意到;通知;公告",
+    "ipa": "/ˈnoʊtɪs/",
+    "partOfSpeech": "v./n.",
+    "exampleSentence": "Did you notice the new painting on the wall?",
+    "synonyms": [
+      "observe",
+      "detect",
+      "announcement"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-044",
+    "word": "regular",
+    "chinese": "规律的;定期的;常规的",
+    "ipa": "/ˈreɡjələr/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "Regular exercise keeps you healthy.",
+    "synonyms": [
+      "routine",
+      "consistent",
+      "steady"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-045",
+    "word": "result",
+    "chinese": "结果;成绩;导致",
+    "ipa": "/rɪˈzʌlt/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "The result of the experiment was surprising.",
+    "synonyms": [
+      "outcome",
+      "consequence",
+      "effect"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-046",
+    "word": "proper",
+    "chinese": "适当的;正确的;正式的",
+    "ipa": "/ˈprɑːpər/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "Please use proper grammar in your essay.",
+    "synonyms": [
+      "appropriate",
+      "suitable",
+      "correct"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-047",
+    "word": "society",
+    "chinese": "社会;团体;社交界",
+    "ipa": "/səˈsaɪəti/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Education benefits the whole society.",
+    "synonyms": [
+      "community",
+      "civilization",
+      "public"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-048",
+    "word": "respect",
+    "chinese": "尊重;尊敬;方面",
+    "ipa": "/rɪˈspekt/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "We should respect other people's opinions.",
+    "synonyms": [
+      "honor",
+      "esteem",
+      "admire"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-049",
+    "word": "natural",
+    "chinese": "自然的;天然的;正常的",
+    "ipa": "/ˈnætʃərəl/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "The park preserves natural habitats.",
+    "synonyms": [
+      "organic",
+      "innate",
+      "genuine"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w32-050",
+    "word": "basic",
+    "chinese": "基本的;初级的;基础的",
+    "ipa": "/ˈbeɪsɪk/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "Everyone should learn basic first aid.",
+    "synonyms": [
+      "fundamental",
+      "elementary",
+      "essential"
+    ],
+    "day": 32,
+    "groupNumber": 32
+  },
+  {
+    "id": "w33-001",
+    "word": "simple",
+    "chinese": "简单的;朴素的;单纯的",
+    "ipa": "/ˈsɪmpl/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "The answer is quite simple.",
+    "synonyms": [
+      "easy",
+      "basic",
+      "straightforward"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-002",
+    "word": "order",
+    "chinese": "命令;订购;顺序;秩序",
+    "ipa": "/ˈɔːrdər/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "The teacher asked students to sit in order.",
+    "synonyms": [
+      "command",
+      "sequence",
+      "arrangement"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-003",
+    "word": "paper",
+    "chinese": "纸;论文;报纸;文件",
+    "ipa": "/ˈpeɪpər/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Please write your answer on the paper.",
+    "synonyms": [
+      "document",
+      "sheet",
+      "article"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-004",
+    "word": "sense",
+    "chinese": "感觉;意义;道理",
+    "ipa": "/sens/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "It makes sense to save money for emergencies.",
+    "synonyms": [
+      "feeling",
+      "perception",
+      "judgment"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-005",
+    "word": "nature",
+    "chinese": "自然;本性;性质",
+    "ipa": "/ˈneɪtʃər/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Nature provides us with clean air and water.",
+    "synonyms": [
+      "environment",
+      "world",
+      "character"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-006",
+    "word": "firm",
+    "chinese": "公司;坚固的;坚定的",
+    "ipa": "/fɜːrm/",
+    "partOfSpeech": "n./adj.",
+    "exampleSentence": "She has a firm belief in education.",
+    "synonyms": [
+      "company",
+      "solid",
+      "steady"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-007",
+    "word": "attention",
+    "chinese": "注意;注意力;关注",
+    "ipa": "/əˈtenʃn/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Pay attention to the teacher.",
+    "synonyms": [
+      "focus",
+      "concentration",
+      "notice"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-008",
+    "word": "sure",
+    "chinese": "确定的;当然;一定",
+    "ipa": "/ʃʊr/",
+    "partOfSpeech": "adj./adv.",
+    "exampleSentence": "Make sure you lock the door before leaving.",
+    "synonyms": [
+      "certain",
+      "confident",
+      "positive"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-009",
+    "word": "practice",
+    "chinese": "练习;实践;惯例",
+    "ipa": "/ˈpræktɪs/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "Practice makes perfect.",
+    "synonyms": [
+      "exercise",
+      "training",
+      "rehearsal"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-010",
+    "word": "deep",
+    "chinese": "深的;深刻的;深深地",
+    "ipa": "/diːp/",
+    "partOfSpeech": "adj./adv.",
+    "exampleSentence": "The lake is very deep in the center.",
+    "synonyms": [
+      "profound",
+      "intense",
+      "extensive"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-011",
+    "word": "special",
+    "chinese": "特殊的;特别的;专门的",
+    "ipa": "/ˈspeʃl/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "Today is a special day for our family.",
+    "synonyms": [
+      "particular",
+      "unique",
+      "exceptional"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-012",
+    "word": "reason",
+    "chinese": "原因;理由;推理",
+    "ipa": "/ˈriːzn/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "The reason for the delay was unclear.",
+    "synonyms": [
+      "cause",
+      "motive",
+      "rationale"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-013",
+    "word": "offer",
+    "chinese": "提供;出价;主动提出",
+    "ipa": "/ˈɔːfər/",
+    "partOfSpeech": "v./n.",
+    "exampleSentence": "The company offered him a good salary.",
+    "synonyms": [
+      "provide",
+      "propose",
+      "present"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-014",
+    "word": "safe",
+    "chinese": "安全的;保险箱",
+    "ipa": "/seɪf/",
+    "partOfSpeech": "adj./n.",
+    "exampleSentence": "Make sure the children are safe at all times.",
+    "synonyms": [
+      "secure",
+      "protected",
+      "harmless"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-015",
+    "word": "spend",
+    "chinese": "花费;度过;用尽",
+    "ipa": "/spend/",
+    "partOfSpeech": "v.",
+    "exampleSentence": "How much time do you spend studying?",
+    "synonyms": [
+      "use",
+      "devote",
+      "consume"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-016",
+    "word": "condition",
+    "chinese": "条件;状况;情况",
+    "ipa": "/kənˈdɪʃn/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The car is in excellent condition.",
+    "synonyms": [
+      "state",
+      "situation",
+      "circumstance"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-017",
+    "word": "possible",
+    "chinese": "可能的;可行的",
+    "ipa": "/ˈpɑːsəbl/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "It is possible to learn a language in one year.",
+    "synonyms": [
+      "feasible",
+      "achievable",
+      "likely"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-018",
+    "word": "while",
+    "chinese": "一会儿;虽然;在...期间",
+    "ipa": "/waɪl/",
+    "partOfSpeech": "conj./n.",
+    "exampleSentence": "Read a book while you wait.",
+    "synonyms": [
+      "during",
+      "whereas",
+      "although"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-019",
+    "word": "movement",
+    "chinese": "运动;移动;活动",
+    "ipa": "/ˈmuːvmənt/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The movement for equality gained momentum.",
+    "synonyms": [
+      "motion",
+      "action",
+      "campaign"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-020",
+    "word": "value",
+    "chinese": "价值;价值观;评价",
+    "ipa": "/ˈvæljuː/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "Education has great value in society.",
+    "synonyms": [
+      "worth",
+      "merit",
+      "importance"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-021",
+    "word": "certain",
+    "chinese": "确定的;某些;必然的",
+    "ipa": "/ˈsɜːrtn/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "I am certain that he will come.",
+    "synonyms": [
+      "sure",
+      "definite",
+      "particular"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-022",
+    "word": "eager",
+    "chinese": "渴望的;热切的;急切的",
+    "ipa": "/ˈiːɡər/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "The students were eager to learn.",
+    "synonyms": [
+      "keen",
+      "enthusiastic",
+      "anxious"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-023",
+    "word": "discover",
+    "chinese": "发现;发觉;了解到",
+    "ipa": "/dɪsˈkʌvər/",
+    "partOfSpeech": "v.",
+    "exampleSentence": "Scientists continue to discover new species.",
+    "synonyms": [
+      "find",
+      "detect",
+      "uncover"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-024",
+    "word": "genuine",
+    "chinese": "真正的;真诚的;名副其实的",
+    "ipa": "/ˈdʒenjuɪn/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "She showed genuine concern for others.",
+    "synonyms": [
+      "authentic",
+      "real",
+      "sincere"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-025",
+    "word": "happy",
+    "chinese": "快乐的;幸福的;满意的",
+    "ipa": "/ˈhæpi/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "The children were happy to see their parents.",
+    "synonyms": [
+      "joyful",
+      "cheerful",
+      "content"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-026",
+    "word": "term",
+    "chinese": "学期;术语;条件;期限",
+    "ipa": "/tɜːrm/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The term paper is due next week.",
+    "synonyms": [
+      "word",
+      "expression",
+      "period"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-027",
+    "word": "response",
+    "chinese": "回应;反应;答复",
+    "ipa": "/rɪˈspɑːns/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "The company issued a quick response.",
+    "synonyms": [
+      "reply",
+      "answer",
+      "reaction"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-028",
+    "word": "save",
+    "chinese": "救;节省;保存;储蓄",
+    "ipa": "/seɪv/",
+    "partOfSpeech": "v.",
+    "exampleSentence": "We should save water for the future.",
+    "synonyms": [
+      "rescue",
+      "preserve",
+      "conserve"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-029",
+    "word": "receive",
+    "chinese": "收到;接待;接受",
+    "ipa": "/rɪˈsiːv/",
+    "partOfSpeech": "v.",
+    "exampleSentence": "I was happy to receive your letter.",
+    "synonyms": [
+      "get",
+      "obtain",
+      "accept"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-030",
+    "word": "damage",
+    "chinese": "损害;破坏;损失",
+    "ipa": "/ˈdæmɪdʒ/",
+    "partOfSpeech": "n./v.",
+    "exampleSentence": "The storm caused serious damage to the building.",
+    "synonyms": [
+      "harm",
+      "destruction",
+      "injury"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-031",
+    "word": "resource",
+    "chinese": "资源;财力;办法",
+    "ipa": "/ˈriːsɔːrs/",
+    "partOfSpeech": "n.",
+    "exampleSentence": "Water is a precious natural resource.",
+    "synonyms": [
+      "asset",
+      "supply",
+      "material"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-032",
+    "word": "real",
+    "chinese": "真实的;实际的;真正的",
+    "ipa": "/riːl/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "This painting looks so real.",
+    "synonyms": [
+      "actual",
+      "genuine",
+      "authentic"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-033",
+    "word": "fill",
+    "chinese": "填充;装满;充满",
+    "ipa": "/fɪl/",
+    "partOfSpeech": "v.",
+    "exampleSentence": "Please fill in the application form.",
+    "synonyms": [
+      "load",
+      "stuff",
+      "complete"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-034",
+    "word": "poor",
+    "chinese": "贫穷的;可怜的;差的",
+    "ipa": "/pʊr/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "The poor child had nothing to eat.",
+    "synonyms": [
+      "impoverished",
+      "needy",
+      "inferior"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-035",
+    "word": "personal",
+    "chinese": "个人的;私人的;亲自的",
+    "ipa": "/ˈpɜːrsənl/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "Keep your personal belongings safe.",
+    "synonyms": [
+      "private",
+      "individual",
+      "own"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-036",
+    "word": "necessary",
+    "chinese": "必要的;必需的;必然的",
+    "ipa": "/ˈnesəseri/",
+    "partOfSpeech": "adj.",
+    "exampleSentence": "It is necessary to follow the rules.",
+    "synonyms": [
+      "essential",
+      "required",
+      "vital"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  },
+  {
+    "id": "w33-037",
+    "word": "however",
+    "chinese": "然而;不过;无论如何",
+    "ipa": "/haʊˈevər/",
+    "partOfSpeech": "adv.",
+    "exampleSentence": "The task was difficult; however, she succeeded.",
+    "synonyms": [
+      "nevertheless",
+      "nonetheless",
+      "yet"
+    ],
+    "day": 33,
+    "groupNumber": 33
+  }
+]
