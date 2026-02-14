@@ -80,7 +80,7 @@ export default function InstructionsModal({ isOpen, onClose }: InstructionsModal
                     {t('keyboardTitle', lang)}
                   </h3>
                   <div className="space-y-1 text-xs text-slate-500 font-mono">
-                    {['keyArrows', 'keyD', 'keyG', 'keyR', 'keyW', 'keyC', 'keyEsc'].map(
+                    {['keyArrows', 'keyD', 'keyS', 'keyG', 'keyR', 'keyW', 'keyC', 'keyEsc'].map(
                       (key) => (
                         <p key={key}>
                           {t(key as keyof typeof import('@/lib/i18n').default.cn, lang)}

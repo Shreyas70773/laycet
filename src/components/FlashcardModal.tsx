@@ -69,9 +69,13 @@ export default function FlashcardModal({
         case 'W':
           setWordStatus(word.id, null);
           break;
+        case 's':
+        case 'S':
+          speakWord(word.word, 1.0);
+          break;
       }
     },
-    [isOpen, onClose, onPrev, onNext, word.id, setWordStatus]
+    [isOpen, onClose, onPrev, onNext, word.id, setWordStatus, word.word]
   );
 
   useEffect(() => {
@@ -149,7 +153,7 @@ export default function FlashcardModal({
           >
             <div
               className={cn(
-                'relative w-full max-w-lg bg-white rounded-2xl shadow-2xl overflow-hidden',
+                'relative w-full max-w-lg bg-white rounded-2xl shadow-2xl',
                 'border-t-4',
                 status === 'green' && 'border-t-emerald-500',
                 status === 'red' && 'border-t-red-500',
@@ -199,7 +203,7 @@ export default function FlashcardModal({
               </div>
 
               {/* Content */}
-              <div className="px-6 pb-4 space-y-4">
+              <div className="px-6 pb-4 space-y-4 max-h-[60vh] overflow-y-auto">
                 {/* Chinese translation — hidden by default */}
                 <div>
                   <div className="flex items-center justify-between mb-1">

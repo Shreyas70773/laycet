@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect, useMemo } from 'react';
 import { AppProvider, useApp } from '@/hooks/useAppState';
 import { Word } from '@/types/word';
-import { initTTS } from '@/lib/tts';
+import { initTTS, speakWord } from '@/lib/tts';
 import { t } from '@/lib/i18n';
 import NavigationBar from '@/components/NavigationBar';
 import DaySlider from '@/components/DaySlider';
@@ -159,6 +159,12 @@ function FlashcardApp() {
         case 'W':
           if (focusedIndex >= 0 && focusedIndex < currentWords.length) {
             setWordStatus(currentWords[focusedIndex].id, null);
+          }
+          break;
+        case 's':
+        case 'S':
+          if (focusedIndex >= 0 && focusedIndex < currentWords.length) {
+            speakWord(currentWords[focusedIndex].word, 1.0);
           }
           break;
         case '/':

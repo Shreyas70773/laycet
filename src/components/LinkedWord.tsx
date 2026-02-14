@@ -3,6 +3,7 @@
 import { Word } from '@/types/word';
 import { cn } from '@/lib/utils';
 import { useState, useRef, useEffect, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 
 interface LinkedWordProps {
   text: string;
@@ -12,13 +13,16 @@ interface LinkedWordProps {
 
 export default function LinkedWord({ text, word, onNavigate }: LinkedWordProps) {
   const [showTooltip, setShowTooltip] = useState(false);
+  const [tooltipStyle, setTooltipStyle] = useState<React.CSSProperties>({});
+  const [arrowStyle, setArrowStyle] = useState<React.CSSProperties>({});
   const [tooltipPos, setTooltipPos] = useState<'above' | 'below'>('above');
-  const [tooltipAlign, setTooltipAlign] = useState<'left' | 'center' | 'right'>('center');
   const ref = useRef<HTMLSpanElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout>>(undefined);
   const lastTapRef = useRef<number>(0);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
     return () => {
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
     };
@@ -27,21 +31,38 @@ export default function LinkedWord({ text, word, onNavigate }: LinkedWordProps) 
   const calculateTooltipPosition = useCallback(() => {
     if (!ref.current) return;
     const rect = ref.current.getBoundingClientRect();
-    const spaceAbove = rect.top;
-    setTooltipPos(spaceAbove < 80 ? 'below' : 'above');
-
-    // Horizontal edge detection - tooltip is ~250px wide
-    const tooltipHalfWidth = 125;
     const viewportWidth = window.innerWidth;
     const centerX = rect.left + rect.width / 2;
 
-    if (centerX < tooltipHalfWidth + 12) {
-      setTooltipAlign('left');
-    } else if (centerX > viewportWidth - tooltipHalfWidth - 12) {
-      setTooltipAlign('right');
+    // Vertical: prefer above, fall back to below
+    const above = rect.top > 80;
+    setTooltipPos(above ? 'above' : 'below');
+
+    // The tooltip will be position: fixed, so use viewport coordinates directly
+    const style: React.CSSProperties = {
+      position: 'fixed' as const,
+      zIndex: 9999,
+    };
+
+    if (above) {
+      style.top = rect.top - 6; // mb-1.5 equivalent
+      style.transform = 'translateY(-100%)';
     } else {
-      setTooltipAlign('center');
+      style.top = rect.bottom + 6;
     }
+
+    // Horizontal centering with edge clamping
+    const tooltipWidth = 250; // approximate
+    let left = centerX - tooltipWidth / 2;
+    if (left < 8) left = 8;
+    if (left + tooltipWidth > viewportWidth - 8) left = viewportWidth - tooltipWidth - 8;
+    style.left = left;
+
+    setTooltipStyle(style);
+
+    // Arrow position: always point to the center of the word
+    const arrowLeft = centerX - left;
+    setArrowStyle({ left: Math.max(8, Math.min(arrowLeft, tooltipWidth - 8)) });
   }, []);
 
   if (!word) {
@@ -88,48 +109,15 @@ export default function LinkedWord({ text, word, onNavigate }: LinkedWordProps) 
     }
   };
 
-  // Tooltip alignment classes
-  const alignClasses = {
-    left: 'left-0',
-    center: 'left-1/2 -translate-x-1/2',
-    right: 'right-0',
-  };
-
-  const arrowAlignClasses = {
-    left: 'left-3',
-    center: 'left-1/2 -translate-x-1/2',
-    right: 'right-3',
-  };
-
-  return (
-    <span
-      ref={ref}
-      className="relative inline"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <span
-        onClick={handleClick}
-        onTouchEnd={handleTouchEnd}
-        className={cn(
-          'cursor-pointer border-b border-dotted border-slate-400',
-          'hover:border-blue-500 hover:text-blue-700 transition-colors',
-        )}
-      >
-        {text}
-      </span>
-
-      {/* Tooltip */}
-      {showTooltip && (
+  const tooltip = showTooltip && mounted
+    ? createPortal(
         <span
+          style={tooltipStyle}
           className={cn(
-            'absolute z-100 px-3 py-2 rounded-lg shadow-lg',
+            'px-3 py-2 rounded-lg shadow-lg',
             'bg-slate-800 text-white text-xs whitespace-nowrap',
             'pointer-events-none',
-            'animate-in fade-in duration-150',
-            tooltipPos === 'above'
-              ? `bottom-full ${alignClasses[tooltipAlign]} mb-1.5`
-              : `top-full ${alignClasses[tooltipAlign]} mt-1.5`
+            'animate-in fade-in duration-150'
           )}
         >
           <span className="font-semibold text-blue-300">{word.word}</span>
@@ -139,16 +127,35 @@ export default function LinkedWord({ text, word, onNavigate }: LinkedWordProps) 
           <span>{word.chinese}</span>
           {/* Arrow */}
           <span
+            style={arrowStyle}
             className={cn(
-              `absolute ${arrowAlignClasses[tooltipAlign]} w-0 h-0`,
+              'absolute w-0 h-0',
               'border-x-4 border-x-transparent',
               tooltipPos === 'above'
                 ? 'top-full border-t-4 border-t-slate-800'
                 : 'bottom-full border-b-4 border-b-slate-800'
             )}
           />
-        </span>
-      )}
+        </span>,
+        document.body
+      )
+    : null;
+
+  return (
+    <span ref={ref} className="relative inline">
+      <span
+        onClick={handleClick}
+        onTouchEnd={handleTouchEnd}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        className={cn(
+          'cursor-pointer border-b border-dotted border-slate-400',
+          'hover:border-blue-500 hover:text-blue-700 transition-colors',
+        )}
+      >
+        {text}
+      </span>
+      {tooltip}
     </span>
   );
 }
