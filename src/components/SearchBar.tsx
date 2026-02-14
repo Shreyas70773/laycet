@@ -14,7 +14,7 @@ interface SearchBarProps {
 }
 
 export default function SearchBar({ isOpen, onClose, onWordSelect }: SearchBarProps) {
-  const { state, words, currentWords } = useApp();
+  const { state, words, currentWords, extraWords } = useApp();
   const lang = state.settings.language;
   const [query, setQuery] = useState('');
   const inputRef = useRef<HTMLInputElement>(null);
@@ -38,13 +38,21 @@ export default function SearchBar({ isOpen, onClose, onWordSelect }: SearchBarPr
     return () => document.removeEventListener('keydown', handleKey);
   }, [isOpen, onClose]);
 
-  const results = query.trim()
-    ? words.filter(
-        (w) =>
-          w.word.toLowerCase().includes(query.toLowerCase()) ||
-          w.chinese.includes(query)
-      ).slice(0, 20)
+  const allSearchable = query.trim()
+    ? [
+        ...words.filter(
+          (w) =>
+            w.word.toLowerCase().includes(query.toLowerCase()) ||
+            w.chinese.includes(query)
+        ).map(w => ({ ...w, _isExtra: false as const })),
+        ...extraWords.filter(
+          (w) =>
+            w.word.toLowerCase().includes(query.toLowerCase()) ||
+            w.chinese.includes(query)
+        ).map(w => ({ ...w, _isExtra: true as const })),
+      ].slice(0, 25)
     : [];
+  const results = allSearchable;
 
   return (
     <AnimatePresence>
@@ -85,6 +93,7 @@ export default function SearchBar({ isOpen, onClose, onWordSelect }: SearchBarPr
               {results.length > 0 && (
                 <div className="max-h-80 overflow-y-auto">
                   {results.map((word) => {
+                    const isExtra = '_isExtra' in word && word._isExtra;
                     const status = state.wordStatuses[word.id];
                     const idx = currentWords.findIndex((w) => w.id === word.id);
                     return (
@@ -108,9 +117,15 @@ export default function SearchBar({ isOpen, onClose, onWordSelect }: SearchBarPr
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
-                          <span className="text-xs text-slate-400">
-                            G{word.groupNumber}
-                          </span>
+                          {isExtra ? (
+                            <span className="text-[10px] px-1.5 py-0.5 rounded bg-amber-100 text-amber-700 font-medium">
+                              {t('extraBadge', lang)}
+                            </span>
+                          ) : (
+                            <span className="text-xs text-slate-400">
+                              G{word.groupNumber}
+                            </span>
+                          )}
                           {status === 'green' && (
                             <span className="w-2 h-2 rounded-full bg-emerald-500" />
                           )}

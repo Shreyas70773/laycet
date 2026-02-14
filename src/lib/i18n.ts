@@ -89,6 +89,14 @@ const translations = {
     keyEsc: 'ESC = 关闭弹窗',
     gotIt: '我知道了',
 
+    // Extra Words tab
+    cetTab: 'CET-4 词汇',
+    extraWordsTab: '扩展词典',
+    extraWordsSubtitle: '来自例句和同义词的扩展词汇',
+    extraBadge: '扩展',
+    letterGroup: '{letter} 开头',
+    extraWordsCount: '{count} 个扩展词汇',
+
     // General
     syncStatus: '已同步',
     offline: '离线',
@@ -187,6 +195,13 @@ const translations = {
     keyC: 'C = Clear all markings',
     keyEsc: 'ESC = Close popup',
     gotIt: 'Got it!',
+
+    cetTab: 'CET-4 Vocabulary',
+    extraWordsTab: 'Extra Dictionary',
+    extraWordsSubtitle: 'Extended vocabulary from sentences & synonyms',
+    extraBadge: 'Extra',
+    letterGroup: 'Starting with {letter}',
+    extraWordsCount: '{count} extra words',
 
     syncStatus: 'Synced',
     offline: 'Offline',

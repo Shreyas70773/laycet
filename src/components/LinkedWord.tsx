@@ -2,7 +2,7 @@
 
 import { Word } from '@/types/word';
 import { cn } from '@/lib/utils';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 
 interface LinkedWordProps {
   text: string;
@@ -13,13 +13,35 @@ interface LinkedWordProps {
 export default function LinkedWord({ text, word, onNavigate }: LinkedWordProps) {
   const [showTooltip, setShowTooltip] = useState(false);
   const [tooltipPos, setTooltipPos] = useState<'above' | 'below'>('above');
+  const [tooltipAlign, setTooltipAlign] = useState<'left' | 'center' | 'right'>('center');
   const ref = useRef<HTMLSpanElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout>>(undefined);
+  const lastTapRef = useRef<number>(0);
 
   useEffect(() => {
     return () => {
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
     };
+  }, []);
+
+  const calculateTooltipPosition = useCallback(() => {
+    if (!ref.current) return;
+    const rect = ref.current.getBoundingClientRect();
+    const spaceAbove = rect.top;
+    setTooltipPos(spaceAbove < 80 ? 'below' : 'above');
+
+    // Horizontal edge detection - tooltip is ~250px wide
+    const tooltipHalfWidth = 125;
+    const viewportWidth = window.innerWidth;
+    const centerX = rect.left + rect.width / 2;
+
+    if (centerX < tooltipHalfWidth + 12) {
+      setTooltipAlign('left');
+    } else if (centerX > viewportWidth - tooltipHalfWidth - 12) {
+      setTooltipAlign('right');
+    } else {
+      setTooltipAlign('center');
+    }
   }, []);
 
   if (!word) {
@@ -28,12 +50,7 @@ export default function LinkedWord({ text, word, onNavigate }: LinkedWordProps) 
 
   const handleMouseEnter = () => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    // Calculate position
-    if (ref.current) {
-      const rect = ref.current.getBoundingClientRect();
-      const spaceAbove = rect.top;
-      setTooltipPos(spaceAbove < 80 ? 'below' : 'above');
-    }
+    calculateTooltipPosition();
     setShowTooltip(true);
   };
 
@@ -47,6 +64,43 @@ export default function LinkedWord({ text, word, onNavigate }: LinkedWordProps) 
     onNavigate(word);
   };
 
+  // Mobile: single tap = tooltip, double tap = navigate
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    e.stopPropagation();
+    const now = Date.now();
+    const timeSinceLastTap = now - lastTapRef.current;
+    lastTapRef.current = now;
+
+    if (timeSinceLastTap < 350 && timeSinceLastTap > 0) {
+      // Double tap - navigate
+      e.preventDefault();
+      setShowTooltip(false);
+      onNavigate(word);
+    } else {
+      // Single tap - toggle tooltip
+      e.preventDefault();
+      if (!showTooltip) {
+        calculateTooltipPosition();
+        setShowTooltip(true);
+      } else {
+        setShowTooltip(false);
+      }
+    }
+  };
+
+  // Tooltip alignment classes
+  const alignClasses = {
+    left: 'left-0',
+    center: 'left-1/2 -translate-x-1/2',
+    right: 'right-0',
+  };
+
+  const arrowAlignClasses = {
+    left: 'left-3',
+    center: 'left-1/2 -translate-x-1/2',
+    right: 'right-3',
+  };
+
   return (
     <span
       ref={ref}
@@ -56,6 +110,7 @@ export default function LinkedWord({ text, word, onNavigate }: LinkedWordProps) 
     >
       <span
         onClick={handleClick}
+        onTouchEnd={handleTouchEnd}
         className={cn(
           'cursor-pointer border-b border-dotted border-slate-400',
           'hover:border-blue-500 hover:text-blue-700 transition-colors',
@@ -73,8 +128,8 @@ export default function LinkedWord({ text, word, onNavigate }: LinkedWordProps) 
             'pointer-events-none',
             'animate-in fade-in duration-150',
             tooltipPos === 'above'
-              ? 'bottom-full left-1/2 -translate-x-1/2 mb-1.5'
-              : 'top-full left-1/2 -translate-x-1/2 mt-1.5'
+              ? `bottom-full ${alignClasses[tooltipAlign]} mb-1.5`
+              : `top-full ${alignClasses[tooltipAlign]} mt-1.5`
           )}
         >
           <span className="font-semibold text-blue-300">{word.word}</span>
@@ -85,7 +140,7 @@ export default function LinkedWord({ text, word, onNavigate }: LinkedWordProps) 
           {/* Arrow */}
           <span
             className={cn(
-              'absolute left-1/2 -translate-x-1/2 w-0 h-0',
+              `absolute ${arrowAlignClasses[tooltipAlign]} w-0 h-0`,
               'border-x-4 border-x-transparent',
               tooltipPos === 'above'
                 ? 'top-full border-t-4 border-t-slate-800'

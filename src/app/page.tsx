@@ -1,9 +1,10 @@
 'use client';
 
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useMemo } from 'react';
 import { AppProvider, useApp } from '@/hooks/useAppState';
 import { Word } from '@/types/word';
 import { initTTS } from '@/lib/tts';
+import { t } from '@/lib/i18n';
 import NavigationBar from '@/components/NavigationBar';
 import DaySlider from '@/components/DaySlider';
 import ControlPanel from '@/components/ControlPanel';
@@ -14,13 +15,16 @@ import SearchBar from '@/components/SearchBar';
 import StatsPanel from '@/components/StatsPanel';
 
 function FlashcardApp() {
-  const { state, currentWords, setWordStatus, setFocusedIndex, focusedIndex } = useApp();
+  const { state, currentWords, extraWords, setWordStatus, setFocusedIndex, focusedIndex } = useApp();
+  const lang = state.settings.language;
 
   const [selectedWord, setSelectedWord] = useState<Word | null>(null);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const [showInstructions, setShowInstructions] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
   const [showStats, setShowStats] = useState(false);
+  const [activeTab, setActiveTab] = useState<'cet' | 'extra'>('cet');
+  const [extraLetterFilter, setExtraLetterFilter] = useState<string>('A');
 
   // Show instructions on first launch
   useEffect(() => {
@@ -91,6 +95,16 @@ function FlashcardApp() {
     },
     [currentWords, setFocusedIndex]
   );
+
+  // Group extra words by starting letter
+  const extraLetters = useMemo(() => {
+    const letters = new Set(extraWords.map(w => w.word[0].toUpperCase()));
+    return Array.from(letters).sort();
+  }, [extraWords]);
+
+  const filteredExtraWords = useMemo(() => {
+    return extraWords.filter(w => w.word[0].toUpperCase() === extraLetterFilter);
+  }, [extraWords, extraLetterFilter]);
 
   // Global keyboard shortcuts
   useEffect(() => {
@@ -172,9 +186,98 @@ function FlashcardApp() {
         onSearch={() => setShowSearch(true)}
         onStats={() => setShowStats(true)}
       />
-      <DaySlider />
-      <ControlPanel />
-      <WordGrid onWordClick={handleWordClick} />
+
+      {/* Tab Bar */}
+      <div className="sticky top-0 z-20 bg-white border-b border-slate-200 shadow-sm">
+        <div className="max-w-5xl mx-auto flex">
+          <button
+            onClick={() => setActiveTab('cet')}
+            className={`flex-1 py-2.5 text-sm font-medium transition-colors relative ${
+              activeTab === 'cet'
+                ? 'text-blue-600'
+                : 'text-slate-500 hover:text-slate-700'
+            }`}
+          >
+            {t('cetTab', lang)}
+            {activeTab === 'cet' && (
+              <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-600" />
+            )}
+          </button>
+          <button
+            onClick={() => setActiveTab('extra')}
+            className={`flex-1 py-2.5 text-sm font-medium transition-colors relative ${
+              activeTab === 'extra'
+                ? 'text-amber-600'
+                : 'text-slate-500 hover:text-slate-700'
+            }`}
+          >
+            {t('extraWordsTab', lang)}
+            <span className="ml-1.5 text-[10px] px-1.5 py-0.5 rounded-full bg-amber-100 text-amber-700">
+              {extraWords.length}
+            </span>
+            {activeTab === 'extra' && (
+              <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-amber-600" />
+            )}
+          </button>
+        </div>
+      </div>
+
+      {activeTab === 'cet' ? (
+        <>
+          <DaySlider />
+          <ControlPanel />
+          <WordGrid onWordClick={handleWordClick} />
+        </>
+      ) : (
+        /* Extra Words Dictionary View */
+        <div className="flex-1 max-w-5xl mx-auto w-full px-4 py-4">
+          <p className="text-xs text-slate-400 mb-3 text-center">
+            {t('extraWordsSubtitle', lang)}
+          </p>
+
+          {/* Letter filter bar */}
+          <div className="flex flex-wrap gap-1 justify-center mb-4">
+            {extraLetters.map(letter => (
+              <button
+                key={letter}
+                onClick={() => setExtraLetterFilter(letter)}
+                className={`w-8 h-8 text-xs font-semibold rounded-lg transition-colors ${
+                  extraLetterFilter === letter
+                    ? 'bg-amber-500 text-white shadow-sm'
+                    : 'bg-white text-slate-600 hover:bg-amber-50 border border-slate-200'
+                }`}
+              >
+                {letter}
+              </button>
+            ))}
+          </div>
+
+          <p className="text-[11px] text-slate-400 text-center mb-3">
+            {t('extraWordsCount', lang, { count: filteredExtraWords.length })}
+          </p>
+
+          {/* Extra words grid */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
+            {filteredExtraWords.map((word) => (
+              <button
+                key={word.id}
+                onClick={() => {
+                  setSelectedWord(word);
+                  setSelectedIndex(-1);
+                }}
+                className="bg-white rounded-lg border border-slate-200 p-2.5 text-left hover:border-amber-400 hover:shadow-sm transition-all group"
+              >
+                <div className="text-sm font-medium text-slate-800 group-hover:text-amber-700 truncate">
+                  {word.word}
+                </div>
+                <div className="text-[11px] text-slate-400 truncate mt-0.5">
+                  {word.chinese}
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Modals */}
       {selectedWord && (

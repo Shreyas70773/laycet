@@ -5,6 +5,7 @@ import { Word, WordStatus } from '@/types/word';
 import { AppState, DEFAULT_STATE, Language } from '@/types/state';
 import { getTodayISO } from '@/lib/utils';
 import wordsData from '@/data/words.json';
+import extraWordsData from '@/data/extra_words.json';
 
 const STORAGE_KEY = 'cet4-flashcard-state';
 
@@ -14,6 +15,7 @@ interface AppContextType {
   words: Word[];
   currentWords: Word[];
   focusedIndex: number;
+  extraWords: Word[];
 
   // Day management
   setCurrentDay: (day: number) => void;
@@ -214,14 +216,24 @@ export function AppProvider({ children }: { children: ReactNode }) {
     [allWords, state.wordStatuses]
   );
 
-  // Build a lookup map for fast word search by text
+  const allExtraWords: Word[] = extraWordsData as Word[];
+
+  // Build a lookup map for fast word search by text (CET first, then extras)
   const wordLookupMap = useMemo(() => {
     const map = new Map<string, Word>();
+    // CET words take priority
     for (const w of allWords) {
       map.set(w.word.toLowerCase(), w);
     }
+    // Extra words fill in the gaps
+    for (const w of allExtraWords) {
+      const key = w.word.toLowerCase();
+      if (!map.has(key)) {
+        map.set(key, w);
+      }
+    }
     return map;
-  }, [allWords]);
+  }, [allWords, allExtraWords]);
 
   const findWordByText = useCallback(
     (text: string): Word | null => {
@@ -272,6 +284,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
         words: allWords,
         currentWords,
         focusedIndex,
+        extraWords: allExtraWords,
         setCurrentDay,
         setWordStatus,
         clearAllStatuses,
