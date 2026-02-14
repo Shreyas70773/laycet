@@ -8,6 +8,7 @@ import { cn } from '@/lib/utils';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Volume2, ChevronLeft, ChevronRight, X, Eye, EyeOff } from 'lucide-react';
 import { useCallback, useEffect, useState } from 'react';
+import SentencePlayer from './SentencePlayer';
 
 interface FlashcardModalProps {
   word: Word;
@@ -187,14 +188,16 @@ export default function FlashcardModal({
                   )}
                 </div>
 
-                {/* Example sentence */}
+                {/* Example sentence with audio player */}
                 <div>
                   <h4 className="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-1">
                     {t('exampleSentence', lang)}
                   </h4>
-                  <p className="text-slate-700 leading-relaxed italic bg-slate-50 rounded-lg p-3">
-                    &ldquo;{highlightSentence(word.exampleSentence, word.word)}&rdquo;
-                  </p>
+                  <SentencePlayer
+                    sentence={word.exampleSentence}
+                    highlightedContent={highlightSentence(word.exampleSentence, word.word)}
+                    lang={lang}
+                  />
                 </div>
 
                 {/* Synonyms — hidden by default */}
